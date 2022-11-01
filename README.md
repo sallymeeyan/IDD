@@ -204,7 +204,7 @@ Recommended list for EGI 128 channel net: {'E17' 'E38' 'E43' 'E44' 'E48' 'E49' '
 ## Example code
 ************************************************************************
 
-After downloading the function, run the following code in bash.
+After modifying the function with your inputs, run the following code in bash.
 
 ```{bash}
 matlab -nodisplay -nosplash -batch 'addpath("your/path/to/the/function/");IDD_preprocess_pipeline_v1_0_test('\''/path/to/data/'\'');
