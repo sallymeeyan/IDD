@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<fileInfo xmlns="http://www.egi.com/info_mff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <mffVersion>3</mffVersion>
-    <recordTime>2019-09-30T07:19:22.360488-05:00</recordTime>
-    <acquisitionVersion>5.4.2 (r29917)</acquisitionVersion>
-    <ampType>NA400</ampType>
-    <ampSerialNumber>A15530533</ampSerialNumber>
-    <ampFirmwareVersion>2.0.14</ampFirmwareVersion>
-</fileInfo>
