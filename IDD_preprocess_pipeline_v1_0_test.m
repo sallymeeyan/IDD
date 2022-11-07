@@ -1033,7 +1033,7 @@ report_table.Properties.VariableNames={'datafile_names', 'reference_used_for_fas
     'epochs_before_artifact_rejection_by_condition','epochs_after_artifact_rejection_by_condition'}; 
      % Yan: add the last three vars, and ICs_removed_HEM', ICs_removed_VEM',ICs_removed_EB', ICs_removed_GD'
      
-writetable(report_table, [output_location filesep 'MADE_preprocessing_report', datestr(now,'dd-mm-yyyy'),'.csv']);
+writetable(report_table, [output_location filesep 'IDD_preprocessing_report', datestr(now,'dd-mm-yyyy'),'.csv']);
 
 
 end
