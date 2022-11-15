@@ -12,7 +12,7 @@ function IDD_preprocess_pipeline_v1_0_test(datadir)
 
 % Users need to specify their own inputs as needed before running the function.
 % ************************************************************************
-% The Maryland Analysis of Developmental EEG (UMADE) Pipeline
+% The Maryland Analysis of Developmental EEG (MADE) Pipeline
 % Version 1.0
 % Developed at the Child Development Lab, University of Maryland, College Park
 
@@ -63,26 +63,28 @@ function IDD_preprocess_pipeline_v1_0_test(datadir)
 
 % clear % clear matlab workspace
 clc % clear matlab command window
-%addpath(genpath('C:\Users\Berger\Documents\eeglab13_4_4b'));% enter the path of the EEGLAB folder in this line
-addpath("/home/yany14/Yan_Yan/download/eeglab2021.0");
+
+addpath("/Users/yanyan/Documents/EEG/eeglab2021.0");% enter the path of the EEGLAB folder in this line
 %enter the path of the adjusted_adjust
-addpath('/gpfs52/data/kangh1/Yan_Yan/myscript/matlabscript/MADE-EEG-preprocessing-pipeline-master/adjusted_adjust_scripts');
+addpath('/Users/yanyan/Documents/EEG/MADE-EEG-preprocessing-pipeline-master/adjusted_adjust_scripts');
+
 eeglab;
 close all;
-% 1. Enter the path of the folder that has the raw data to be analyzed
+
+% omit - 1. Enter the path of the folder that has the raw data to be analyzed
 % M1: No need to enter the path to the data folder as it's the argument of the
 % function.
 
 rawdata_location = datadir;
 
-% 2. Enter the path of the folder where you want to save the processed data
+% omit - 2. Enter the path of the folder where you want to save the processed data
 % M2: To facilitate parallel processing, the output folder will be created
 % inside the raw data folder
 mkdir([rawdata_location filesep 'result']);
 output_location = [rawdata_location filesep 'result'];
 
 % 3. Enter the path of the channel location file
-channel_locations = '/home/yany14/Yan_Yan/myscript/matlabscript/MADE-EEG-preprocessing-pipeline-master/channel location files/GSN-HydroCel-129.sfp';
+channel_locations = '/Users/yanyan/Documents/EEG/MADE-EEG-preprocessing-pipeline-master/channel location files/GSN-HydroCel-129.sfp';
 
 % 4. Do your data need correction for anti-aliasing filter and/or task related time offset?
 adjust_time_offset = 0; % 0 = NO (no correction), 1 = YES (correct time offset)
@@ -153,7 +155,9 @@ plot_ERPs = 1; % 1 = yes, 0 = no
 chans_to_plot = [53, 54, 60, 61, 62, 67, 68, 73, 78, 79, 80, 86, 87]; % parietal cluster
 
 % 18. Do you want to plot the ERPs by condition if task-related?
-plot_ERPs_by_condition = 1; % 1 = yes, 0 = no
+plot_ERPs_by_condition = 1; % 1 = yes, 0 = no. 
+% This step now supports only 2 conditions, 
+% so if you have more than 2 conditions, please use 0.
 
 % ********* no need to edit beyond this point for EGI .mff data **********
 % ********* for non-.mff data format edit data import function ***********

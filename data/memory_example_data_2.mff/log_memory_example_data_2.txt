@@ -1,0 +1,1477 @@
+00:00:00.004.047: ENOLISController.mm:833 ENOLISController:getAmpStartTime: time 1563879089974397 - old time 1563879089600541 = 0.373856 seconds, ampID 0
+00:00:00.004.175: --- EEG START RECORDING ---------------------------------------------------------------------------------
+00:00:00.004.216:          Name: as013_memory_20190724_030559.mff
+00:00:00.004.632:          Date: 2019-07-23 06:11:21.158397 AM CDT, unix 1563880281, micro 1563880281158397
+00:00:00.004.689:   Acquisition: 5.4.2 (r29917)
+00:00:00.004.728:      Mac OS X: 10.13.4 (17E199)
+00:00:00.004.784:         Model: MacBookPro11,4
+00:00:00.004.823:           GHz: 2.20
+00:00:00.004.876:  # Processors: 8
+00:00:00.004.914:        Memory: 16.00 GB
+00:00:00.004.966:           MFF: 3
+00:00:00.005.000:  Amp Serial #: A15300389
+00:00:00.005.041:      Amp Type: NA400
+00:00:00.005.088:  Amp Firmware: 2.0.14
+00:00:00.005.123:  Amp Channels: 128
+00:00:00.005.153:  Legacy Board: false
+00:00:00.005.223: Sensor Layout: Geodesic Sensor Net 128 2.1
+00:00:00.005.268: Sampling Rate: 250 s/s
+00:00:00.005.312:         Video: None
+00:00:00.005.348:         Audio: None
+00:00:00.005.396: ---------------------------------------------------------------------------------------------------------
+00:00:00.006.220: NSAToolbarDelegate.m:803 NSAToolbarDelegate:updateInterface _onOff YES, _recordButton YES, _stopButton YES,
+00:00:00.006.826: NSARecording.m:313 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: signal blocks 0
+00:00:00.006.919: NSARecording.m:321 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: xml 0
+00:00:00.007.013: ENOLISController.mm:993 ENOLISController:getAmpDetails: 
+00:00:00.010.794: NSARecording.m:338 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: EEG shift: 112 ms - PNS shift: 80 ms = 32 ms
+00:00:00.010.872: NSARecording.m:339 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: EEG shift: 28 samples - PNS shift: 20 samples = 8 samples
+00:00:00.010.932: NSARecording.m:358 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: /Users/EGI/Desktop/FAST/as013_memory_20190724_030559.mff
+00:00:00.013.639: NSARecording.m:2084 NSARecording:writeInfo_EEG 
+00:00:00.013.740: NSARecording.m:2173 NSARecording:appendCallibrations:ofType:withTimes:to: GCAL 1 00:00:00.000
+00:00:00.014.177: NSARecording.m:2537 NSARecording:copySensorlayoutFile 
+00:00:00.014.205: NSARecording.m:2124 00:00:00.014.229: NSARecording.m:2577 NSARecording:copyCoordinatesFile 
+NSARecording:writeInfo_EEG
+00:00:00.014.943: NSARecording.m:3075 NSARecording:writeTRsPerVolume None
+00:00:00.015.012: NSARecording.m:3138 NSARecording:writeAcquiringXML 
+00:00:00.015.207: NSARecording.m:2549 NSARecording:copySensorlayoutFile
+00:00:00.015.615: NSARecording.m:2595 NSARecording:copySensorlayoutFile
+00:00:00.015.664: NSARecording.m:2084 NSARecording:writeInfo_EEG 
+00:00:00.015.733: NSARecording.m:2173 NSARecording:appendCallibrations:ofType:withTimes:to: GCAL 1 00:00:00.000
+00:00:00.015.857: NSARecording.m:2390 NSARecording:writePatientInfo
+00:00:00.016.083: NSARecording.m:2173 NSARecording:appendCallibrations:ofType:withTimes:to: ICAL 1 00:00:00.000
+00:00:00.016.336: NSARecording.m:2471 NSARecording:writeTechNote RTF
+00:00:00.016.685: NSARecording.m:3152 NSARecording:writeAcquiringXML
+00:00:00.016.980: NSARecording.m:2124 NSARecording:writeInfo_EEG
+00:00:00.020.517: PLTECICommandDelegate.mm:120 time 1563879089974397 - old time 0 = 1563879089.974397 seconds
+00:00:00.020.590: PLTECICommandDelegate.mm:136 ampStartTime_micro_ 1563879089974397
+00:00:00.158.596: EAmpController.m:2290 EAmpController:currentSampleDate currentSampleDate 2019-07-23 11:11:21 +0000, _sampleCount 1191184 - currentAmpTime 297838 = 893346
+00:00:00.158.990: PLTRecord.m:1800 PLTRecord:sampleData:sampleCount: 
+00:00:00.159.169: 
+00:00:00.159.315: Sample Provider timing info
+00:00:00.159.445:      Reference Date: 1 January 1970, GMT
+00:00:00.159.543:      Amp Start Time: 1563879089974397
+00:00:00.159.719:      Amp Start Date: 2019-07-23 05:51:29.974397 AM CDT
+00:00:00.159.890: Current Sample Date: 2019-07-23 06:11:21.158397 AM CDT
+00:00:00.159.973:      Stream Up Time: 1191.184000 seconds
+00:00:00.160.027: 
+00:00:00.167.018: EAmpController.m:2290 EAmpController:currentSampleDate currentSampleDate 2019-07-23 11:11:21 +0000, _sampleCount 1191184 - currentAmpTime 297840 = 893344
+00:00:00.170.512: NSARecording.m:739 NSARecording:writeSampleData:sampleCount: 
+00:00:00.170.591: NSARECORDING first sample received
+00:00:00.170.631:        stream uptime 1191.184000
+00:00:00.170.716: recording _startDate 2019-07-23 06:11:21.158397 AM CDT, epoch 1563880281, micro 1563880281158397
+00:00:00.170.788:   stream sample date 2019-07-23 06:11:21.158397 AM CDT
+00:00:00.170.831:                 diff 0.000000
+00:00:00.170.873:   _end_ns (55011543181516) - _start_ns (55011399181516) = 144000000, sampleCount 36
+00:00:00.170.927: NSARecording.m:1974 NSARecording:writeInfo 
+00:00:00.171.191: ENOLISController.mm:993 ENOLISController:getAmpDetails: 
+00:00:00.174.884: NSARecording.m:812 NSARecording:writeSampleData:sampleCount: 00:00:00.174.906: NSARecording.m:2003 EEG shift: Remove 28 samples from epoch 1
+NSARecording:writeInfo
+00:00:00.174.982: NSARecording.m:829 NSARecording:writeSampleData:sampleCount: _firstSampleWritten = YES
+00:00:00.175.733: PLTRecord.m:1011 PLTRecord:firstSample: 
+00:00:00.175.815: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: number.intValue 55513, _portNumber 55513
+00:00:00.175.886: PLTECICommandDelegate.mm:808 _state = 0
+00:00:00.175.938: PLTECICommandDelegate.mm:278 'B' eci_BeginRecording ack
+00:00:00.187.711: PLTECICommandDelegate.mm:321 'A' eci_Attention ack
+00:00:00.194.144: PLTECIEvents.m:537 PLTECIEvents:attention: eci_Attention
+00:00:00.196.692: PLTECICommandDelegate.mm:382 'N' eci_NTPClockSynch
+00:00:00.200.617: PLTECICommandDelegate.mm:403 ntp clock sync seconds 3772869074, partsOfASecond 2174439680
+00:00:00.200.685: PLTECICommandDelegate.mm:408 eciStartTime_micro_ 1563880274506276 - ampStartTime_micro_ 1563879089974397 = _clockDiff_micro 1184531879
+00:00:00.200.760: PLTECICommandDelegate.mm:412 date eci 2019-07-23 06:11:14 +0000 - date amp 2019-07-23 05:51:29 +0000 = 1184.531879
+00:00:00.200.845: PLTECICommandDelegate.mm:425 'N' eci_NTPClockSynch ack
+00:00:00.200.957: PLTECIEvents.m:567 PLTECIEvents:ntpClockSync: eci_NTPClockSynch: seconds 3772869074, partsOfASecond 2174439680, eciStartTime_micro_ 1563880274506276 - ampStartTime_micro_ 1563879089974397 = _clockDiff_micro 1184531879
+00:00:00.252.089: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:21.371276-05:00, baseTime 1563880274506276, ms_offset 6865, secondsFromGMT_ -18000
+00:00:00.252.236: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.252.519: PLTECIEvents.m:840 PLTECIEvents:eventData: 6865000 + 1184531879 = 1191396879: SESS 1,191,396
+00:00:00.252.850: [1] Event: 00:00:00.212, SESS, ECI TCP-IP 55513, 00:19:51.508.878
+00:00:00.303.120: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:21.443276-05:00, baseTime 1563880274506276, ms_offset 6937, secondsFromGMT_ -18000
+00:00:00.303.256: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.303.488: PLTECIEvents.m:840 PLTECIEvents:eventData: 6937000 + 1184531879 = 1191468879: CELL 1,191,468
+00:00:00.303.680: [1] Event: 00:00:00.284, CELL, ECI TCP-IP 55513, 00:00:00.072.000
+00:00:00.322.053: NSAEvent2.m:309 NSAImageParent:initWithImage: Nonword repetition_choose1 noAtt_noChronos
+00:00:00.337.575: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:21.477276-05:00, baseTime 1563880274506276, ms_offset 6971, secondsFromGMT_ -18000
+00:00:00.337.690: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.341.939: PLTECIEvents.m:840 PLTECIEvents:eventData: 6971000 + 1184531879 = 1191502879: CELL 1,191,502
+00:00:00.342.127: [1] Event: 00:00:00.318, CELL, ECI TCP-IP 55513, 00:00:00.033.999
+00:00:00.388.235: NSAEvent2.m:309 NSAImageParent:initWithImage: shown once
+00:00:00.421.663: NSAEvent2.m:309 NSAImageParent:initWithImage: repeated
+00:00:01.442.938: PLTECICommandDelegate.mm:290 'E' eci_EndRecording
+00:00:01.443.138: PLTECIEvents.m:499 PLTECIEvents:endRecording: eci_EndRecording
+00:00:01.443.246: PLTRecord.m:289 PLTRecord:recordNotification: 
+00:00:01.443.301: PLTRecord.m:320 PLTRecord:record: PLTRecord_recording
+00:00:01.443.370: EEG PAUSE RECORDING
+00:00:01.443.409: EEG HANDLE PAUSE RECORDING
+00:00:01.443.577: NSAToolbarDelegate.m:803 NSAToolbarDelegate:updateInterface _onOff YES, _recordButton YES, _stopButton YES,
+00:00:01.443.652: NSARecording.m:1444 NSARecording:appendFlatlinedSamples EEG shift: Append 28 flatlined samples to epoch 1
+00:00:01.444.188: NSARecording.m:3037 NSARecording:writeEpoch #1, beginTime: 0, endTime: 1444000, firstBlock: 1, lastBlock: 1
+00:00:01.448.818: PLTECIServer.mm:258 PLTECIServer:endRecording_TRUE: number.intValue 55513, _portNumber 55513
+00:00:01.448.897: PLTECICommandDelegate.mm:808 _state = 0
+00:00:01.448.961: PLTECICommandDelegate.mm:306 'E' eci_EndRecording ack
+00:00:01.916.719: PLTECICommandDelegate.mm:262 'B' eci_BeginRecording, ms 1193104, upTime 298279
+00:00:01.925.540: PLTECIEvents.m:482 PLTECIEvents:beginRecording: eci_BeginRecording: _clockDiff_micro 1184531879
+00:00:01.925.628: PLTRecord.m:289 PLTRecord:recordNotification: 
+00:00:01.925.679: PLTRecord.m:320 PLTRecord:record: PLTRecord_paused
+00:00:01.925.730: EEG RESUME RECORDING
+00:00:01.925.793: PLTRecord.m:1394 PLTRecord:resumeRecording spSampleCount 1193112 - _spSampleCount_last 1192628 = 484, _spSampleCount_pause 484
+00:00:01.926.132: NSAToolbarDelegate.m:803 NSAToolbarDelegate:updateInterface _onOff YES, _recordButton YES, _stopButton YES,
+00:00:01.931.811: NSARecording.m:800 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 1 samples from epoch 2
+00:00:01.934.628: NSARecording.m:800 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 3 samples from epoch 2
+00:00:02.022.450: NSARecording.m:800 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 20 samples from epoch 2
+00:00:02.024.596: NSARecording.m:800 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 2 samples from epoch 2
+00:00:02.029.597: NSARecording.m:800 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 2 samples from epoch 2
+00:00:02.035.593: NSARecording.m:829 NSARecording:writeSampleData:sampleCount: _firstSampleWritten = YES
+00:00:02.035.724: PLTRecord.m:1011 PLTRecord:firstSample: 
+00:00:02.035.785: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: number.intValue 55513, _portNumber 55513
+00:00:02.035.841: PLTECICommandDelegate.mm:808 _state = 0
+00:00:02.035.901: PLTECICommandDelegate.mm:278 'B' eci_BeginRecording ack
+00:00:02.864.795: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:23.999276-05:00, baseTime 1563880274506276, ms_offset 9493, secondsFromGMT_ -18000
+00:00:02.864.932: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:02.865.157: PLTECIEvents.m:840 PLTECIEvents:eventData: 9493000 + 1184531879 = 1194024879: bgin 1,194,024
+00:00:02.865.372: [2] Event: 00:00:02.840, bgin, ECI TCP-IP 55513, 00:00:02.521.999
+00:00:02.938.468: NSAEvent2.m:309 NSAImageParent:initWithImage: bgin
+00:00:04.492.386: [2] Event: 00:00:04.496, DIN2, DIN2, 00:00:01.655.120
+00:00:04.588.563: NSAEvent2.m:309 NSAImageParent:initWithImage: DIN2
+00:00:05.916.954: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:25.584276-05:00, baseTime 1563880274506276, ms_offset 11078, secondsFromGMT_ -18000
+00:00:05.917.084: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:05.917.317: PLTECIEvents.m:840 PLTECIEvents:eventData: 11078000 + 1184531879 = 1195609879: rept 1,195,609
+00:00:05.917.889: NSAEvent2.m:309 NSAImageParent:initWithImage: rept
+00:00:05.918.287: [2] Event: 00:00:04.425, rept, ECI TCP-IP 55513, -00:00:00.070.121
+00:00:05.920.942: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:27.087276-05:00, baseTime 1563880274506276, ms_offset 12581, secondsFromGMT_ -18000
+00:00:05.921.043: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:05.926.626: PLTECIEvents.m:840 PLTECIEvents:eventData: 12581000 + 1184531879 = 1197112879: TRSP 1,197,112
+00:00:05.926.943: [2] Event: 00:00:05.928, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:05.928.433: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:27.095276-05:00, baseTime 1563880274506276, ms_offset 12589, secondsFromGMT_ -18000
+00:00:05.928.523: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:05.928.733: PLTECIEvents.m:840 PLTECIEvents:eventData: 12589000 + 1184531879 = 1197120879: bgin 1,197,120
+00:00:05.928.913: [2] Event: 00:00:05.936, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:06.022.299: NSAEvent2.m:309 NSAImageParent:initWithImage: TRSP
+00:00:07.699.416: [2] Event: 00:00:07.700, DIN2, DIN2, 00:00:01.763.120
+00:00:09.131.475: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:28.799276-05:00, baseTime 1563880274506276, ms_offset 14293, secondsFromGMT_ -18000
+00:00:09.131.607: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:09.131.839: PLTECIEvents.m:840 PLTECIEvents:eventData: 14293000 + 1184531879 = 1198824879: sngl 1,198,824
+00:00:09.132.405: NSAEvent2.m:309 NSAImageParent:initWithImage: sngl
+00:00:09.132.795: [2] Event: 00:00:07.640, sngl, ECI TCP-IP 55513, -00:00:00.059.121
+00:00:09.135.052: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:30.302276-05:00, baseTime 1563880274506276, ms_offset 15796, secondsFromGMT_ -18000
+00:00:09.135.148: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:09.135.331: PLTECIEvents.m:840 PLTECIEvents:eventData: 15796000 + 1184531879 = 1200327879: TRSP 1,200,327
+00:00:09.135.516: [2] Event: 00:00:09.143, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:09.141.875: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:30.309276-05:00, baseTime 1563880274506276, ms_offset 15803, secondsFromGMT_ -18000
+00:00:09.141.978: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:09.142.796: PLTECIEvents.m:840 PLTECIEvents:eventData: 15803000 + 1184531879 = 1200334879: bgin 1,200,334
+00:00:09.142.970: [2] Event: 00:00:09.150, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:00:10.760.336: [2] Event: 00:00:10.760, DIN2, DIN2, 00:00:01.609.121
+00:00:12.213.482: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:31.881276-05:00, baseTime 1563880274506276, ms_offset 17375, secondsFromGMT_ -18000
+00:00:12.216.209: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:12.217.183: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:33.383276-05:00, baseTime 1563880274506276, ms_offset 18877, secondsFromGMT_ -18000
+00:00:12.217.329: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:12.225.122: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:33.392276-05:00, baseTime 1563880274506276, ms_offset 18886, secondsFromGMT_ -18000
+00:00:12.225.617: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:12.230.794: PLTECIEvents.m:840 PLTECIEvents:eventData: 17375000 + 1184531879 = 1201906879: sngl 1,201,906
+00:00:12.231.713: [2] Event: 00:00:10.722, sngl, ECI TCP-IP 55513, -00:00:00.037.121
+00:00:12.231.962: PLTECIEvents.m:840 PLTECIEvents:eventData: 18877000 + 1184531879 = 1203408879: TRSP 1,203,408
+00:00:12.232.225: [2] Event: 00:00:12.224, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:00:12.232.399: PLTECIEvents.m:840 PLTECIEvents:eventData: 18886000 + 1184531879 = 1203417879: bgin 1,203,417
+00:00:12.232.626: [2] Event: 00:00:12.233, bgin, ECI TCP-IP 55513, 00:00:00.009.000
+00:00:13.994.137: [2] Event: 00:00:13.996, DIN2, DIN2, 00:00:01.762.120
+00:00:15.446.037: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:35.113276-05:00, baseTime 1563880274506276, ms_offset 20607, secondsFromGMT_ -18000
+00:00:15.446.187: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:15.448.012: PLTECIEvents.m:840 PLTECIEvents:eventData: 20607000 + 1184531879 = 1205138879: sngl 1,205,138
+00:00:15.449.849: [2] Event: 00:00:13.954, sngl, ECI TCP-IP 55513, -00:00:00.041.121
+00:00:15.449.894: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:36.616276-05:00, baseTime 1563880274506276, ms_offset 22110, secondsFromGMT_ -18000
+00:00:15.449.994: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:15.451.369: PLTECIEvents.m:840 PLTECIEvents:eventData: 22110000 + 1184531879 = 1206641879: TRSP 1,206,641
+00:00:15.453.768: [2] Event: 00:00:15.457, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:15.456.736: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:36.624276-05:00, baseTime 1563880274506276, ms_offset 22118, secondsFromGMT_ -18000
+00:00:15.457.009: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:15.464.576: PLTECIEvents.m:840 PLTECIEvents:eventData: 22118000 + 1184531879 = 1206649879: bgin 1,206,649
+00:00:15.466.632: [2] Event: 00:00:15.465, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:17.232.827: [2] Event: 00:00:17.236, DIN2, DIN2, 00:00:01.770.120
+00:00:17.311.325: NSAEEGController.m:1178 NSAEEGController:channelVisibilityChanged: 
+00:00:18.679.124: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:38.346276-05:00, baseTime 1563880274506276, ms_offset 23840, secondsFromGMT_ -18000
+00:00:18.679.295: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:18.681.549: PLTECIEvents.m:840 PLTECIEvents:eventData: 23840000 + 1184531879 = 1208371879: rept 1,208,371
+00:00:18.682.858: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:39.849276-05:00, baseTime 1563880274506276, ms_offset 25343, secondsFromGMT_ -18000
+00:00:18.683.000: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:18.683.879: [2] Event: 00:00:17.187, rept, ECI TCP-IP 55513, -00:00:00.048.121
+00:00:18.685.900: PLTECIEvents.m:840 PLTECIEvents:eventData: 25343000 + 1184531879 = 1209874879: TRSP 1,209,874
+00:00:18.688.601: [2] Event: 00:00:18.690, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:18.690.532: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:39.857276-05:00, baseTime 1563880274506276, ms_offset 25351, secondsFromGMT_ -18000
+00:00:18.690.731: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:18.699.118: PLTECIEvents.m:840 PLTECIEvents:eventData: 25351000 + 1184531879 = 1209882879: bgin 1,209,882
+00:00:18.701.070: [2] Event: 00:00:18.698, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:19.911.655: NSAEEGController.m:1178 NSAEEGController:channelVisibilityChanged: 
+00:00:20.264.646: [2] Event: 00:00:20.264, DIN2, DIN2, 00:00:01.565.121
+00:00:21.710.487: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:41.378276-05:00, baseTime 1563880274506276, ms_offset 26872, secondsFromGMT_ -18000
+00:00:21.710.635: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:21.713.043: PLTECIEvents.m:840 PLTECIEvents:eventData: 26872000 + 1184531879 = 1211403879: rept 1,211,403
+00:00:21.714.126: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:42.881276-05:00, baseTime 1563880274506276, ms_offset 28375, secondsFromGMT_ -18000
+00:00:21.714.244: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:21.715.382: [2] Event: 00:00:20.219, rept, ECI TCP-IP 55513, -00:00:00.044.121
+00:00:21.717.451: PLTECIEvents.m:840 PLTECIEvents:eventData: 28375000 + 1184531879 = 1212906879: TRSP 1,212,906
+00:00:21.720.238: [2] Event: 00:00:21.722, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:21.721.522: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:42.888276-05:00, baseTime 1563880274506276, ms_offset 28382, secondsFromGMT_ -18000
+00:00:21.721.604: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:21.723.605: PLTECIEvents.m:840 PLTECIEvents:eventData: 28382000 + 1184531879 = 1212913879: bgin 1,212,913
+00:00:21.726.006: [2] Event: 00:00:21.729, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:00:23.261.632: [2] Event: 00:00:23.264, DIN2, DIN2, 00:00:01.534.120
+00:00:24.710.115: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:44.377276-05:00, baseTime 1563880274506276, ms_offset 29871, secondsFromGMT_ -18000
+00:00:24.710.282: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:24.714.071: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:45.880276-05:00, baseTime 1563880274506276, ms_offset 31374, secondsFromGMT_ -18000
+00:00:24.714.133: PLTECIEvents.m:840 PLTECIEvents:eventData: 00:00:24.714.178: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+29871000 + 1184531879 = 1214402879: sngl 1,214,402
+00:00:24.716.463: [2] Event: 00:00:23.218, sngl, ECI TCP-IP 55513, -00:00:00.045.121
+00:00:24.718.588: PLTECIEvents.m:840 PLTECIEvents:eventData: 31374000 + 1184531879 = 1215905879: TRSP 1,215,905
+00:00:24.721.006: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:45.888276-05:00, baseTime 1563880274506276, ms_offset 31382, secondsFromGMT_ -18000
+00:00:24.721.099: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:24.721.481: [2] Event: 00:00:24.721, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:24.723.592: PLTECIEvents.m:840 PLTECIEvents:eventData: 31382000 + 1184531879 = 1215913879: bgin 1,215,913
+00:00:24.725.657: [2] Event: 00:00:24.729, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:26.496.251: [2] Event: 00:00:26.496, DIN2, DIN2, 00:00:01.766.120
+00:00:27.941.500: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:47.609276-05:00, baseTime 1563880274506276, ms_offset 33103, secondsFromGMT_ -18000
+00:00:27.941.706: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:27.945.065: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:49.111276-05:00, baseTime 1563880274506276, ms_offset 34605, secondsFromGMT_ -18000
+00:00:27.945.169: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:27.947.162: PLTECIEvents.m:840 PLTECIEvents:eventData: 33103000 + 1184531879 = 1217634879: rept 1,217,634
+00:00:27.949.557: [2] Event: 00:00:26.450, rept, ECI TCP-IP 55513, -00:00:00.045.121
+00:00:27.951.792: PLTECIEvents.m:840 PLTECIEvents:eventData: 34605000 + 1184531879 = 1219136879: TRSP 1,219,136
+00:00:27.952.536: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:49.119276-05:00, baseTime 1563880274506276, ms_offset 34613, secondsFromGMT_ -18000
+00:00:27.952.637: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:27.954.768: [2] Event: 00:00:27.952, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:00:27.957.272: PLTECIEvents.m:840 PLTECIEvents:eventData: 34613000 + 1184531879 = 1219144879: bgin 1,219,144
+00:00:27.959.625: [2] Event: 00:00:27.960, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:29.685.046: [2] Event: 00:00:29.684, DIN2, DIN2, 00:00:01.723.120
+00:00:31.124.119: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:50.791276-05:00, baseTime 1563880274506276, ms_offset 36285, secondsFromGMT_ -18000
+00:00:31.124.267: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:31.127.761: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:52.294276-05:00, baseTime 1563880274506276, ms_offset 37788, secondsFromGMT_ -18000
+00:00:31.127.893: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:31.131.358: PLTECIEvents.m:840 PLTECIEvents:eventData: 36285000 + 1184531879 = 1220816879: sngl 1,220,816
+00:00:31.133.914: [2] Event: 00:00:29.632, sngl, ECI TCP-IP 55513, -00:00:00.051.121
+00:00:31.135.212: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:52.302276-05:00, baseTime 1563880274506276, ms_offset 37796, secondsFromGMT_ -18000
+00:00:31.135.313: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:31.136.134: PLTECIEvents.m:840 PLTECIEvents:eventData: 37788000 + 1184531879 = 1222319879: TRSP 1,222,319
+00:00:31.139.440: [2] Event: 00:00:31.135, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:31.141.996: PLTECIEvents.m:840 PLTECIEvents:eventData: 37796000 + 1184531879 = 1222327879: bgin 1,222,327
+00:00:31.144.278: [2] Event: 00:00:31.143, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:32.780.900: [2] Event: 00:00:32.780, DIN2, DIN2, 00:00:01.636.120
+00:00:34.222.525: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:53.890276-05:00, baseTime 1563880274506276, ms_offset 39384, secondsFromGMT_ -18000
+00:00:34.222.654: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:34.225.392: PLTECIEvents.m:840 PLTECIEvents:eventData: 39384000 + 1184531879 = 1223915879: sngl 1,223,915
+00:00:34.226.299: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:55.393276-05:00, baseTime 1563880274506276, ms_offset 40887, secondsFromGMT_ -18000
+00:00:34.226.398: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:34.228.126: [2] Event: 00:00:32.731, sngl, ECI TCP-IP 55513, -00:00:00.048.121
+00:00:34.233.314: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:55.401276-05:00, baseTime 1563880274506276, ms_offset 40895, secondsFromGMT_ -18000
+00:00:34.233.420: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:34.236.731: PLTECIEvents.m:840 PLTECIEvents:eventData: 40887000 + 1184531879 = 1225418879: TRSP 1,225,418
+00:00:34.240.150: [2] Event: 00:00:34.234, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:34.242.585: PLTECIEvents.m:840 PLTECIEvents:eventData: 40895000 + 1184531879 = 1225426879: bgin 1,225,426
+00:00:34.245.221: [2] Event: 00:00:34.242, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:35.854.683: [2] Event: 00:00:35.856, DIN2, DIN2, 00:00:01.613.121
+00:00:37.289.009: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:56.956276-05:00, baseTime 1563880274506276, ms_offset 42450, secondsFromGMT_ -18000
+00:00:37.289.138: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:37.291.793: PLTECIEvents.m:840 PLTECIEvents:eventData: 42450000 + 1184531879 = 1226981879: rept 1,226,981
+00:00:37.292.794: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:58.459276-05:00, baseTime 1563880274506276, ms_offset 43953, secondsFromGMT_ -18000
+00:00:37.292.902: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:37.294.694: [2] Event: 00:00:35.797, rept, ECI TCP-IP 55513, -00:00:00.058.121
+00:00:37.300.283: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:11:58.467276-05:00, baseTime 1563880274506276, ms_offset 43961, secondsFromGMT_ -18000
+00:00:37.300.421: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:37.303.570: PLTECIEvents.m:840 PLTECIEvents:eventData: 43953000 + 1184531879 = 1228484879: TRSP 1,228,484
+00:00:37.307.130: [2] Event: 00:00:37.300, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:37.309.588: PLTECIEvents.m:840 PLTECIEvents:eventData: 43961000 + 1184531879 = 1228492879: bgin 1,228,492
+00:00:37.312.177: [2] Event: 00:00:37.308, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:38.890.508: [2] Event: 00:00:38.888, DIN2, DIN2, 00:00:01.579.121
+00:00:40.337.212: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:00.004276-05:00, baseTime 1563880274506276, ms_offset 45498, secondsFromGMT_ -18000
+00:00:40.337.350: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:40.340.050: PLTECIEvents.m:840 PLTECIEvents:eventData: 45498000 + 1184531879 = 1230029879: sngl 1,230,029
+00:00:40.341.096: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:01.507276-05:00, baseTime 1563880274506276, ms_offset 47001, secondsFromGMT_ -18000
+00:00:40.341.190: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:40.343.011: [2] Event: 00:00:38.845, sngl, ECI TCP-IP 55513, -00:00:00.042.121
+00:00:40.348.416: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:01.515276-05:00, baseTime 1563880274506276, ms_offset 47009, secondsFromGMT_ -18000
+00:00:40.348.515: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:40.351.822: PLTECIEvents.m:840 PLTECIEvents:eventData: 47001000 + 1184531879 = 1231532879: TRSP 1,231,532
+00:00:40.354.841: [2] Event: 00:00:40.348, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:40.356.819: PLTECIEvents.m:840 PLTECIEvents:eventData: 47009000 + 1184531879 = 1231540879: bgin 1,231,540
+00:00:40.358.871: [2] Event: 00:00:40.356, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:41.839.339: [2] Event: 00:00:41.840, DIN2, DIN2, 00:00:01.483.120
+00:00:43.285.568: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:02.953276-05:00, baseTime 1563880274506276, ms_offset 48447, secondsFromGMT_ -18000
+00:00:43.285.711: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:43.288.050: PLTECIEvents.m:840 PLTECIEvents:eventData: 48447000 + 1184531879 = 1232978879: sngl 1,232,978
+00:00:43.289.053: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:04.456276-05:00, baseTime 1563880274506276, ms_offset 49950, secondsFromGMT_ -18000
+00:00:43.289.153: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:43.290.431: [2] Event: 00:00:41.794, sngl, ECI TCP-IP 55513, -00:00:00.045.121
+00:00:43.292.614: PLTECIEvents.m:840 PLTECIEvents:eventData: 49950000 + 1184531879 = 1234481879: TRSP 1,234,481
+00:00:43.295.777: [2] Event: 00:00:43.297, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:43.296.028: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:04.463276-05:00, baseTime 1563880274506276, ms_offset 49957, secondsFromGMT_ -18000
+00:00:43.296.137: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:43.304.900: PLTECIEvents.m:840 PLTECIEvents:eventData: 49957000 + 1184531879 = 1234488879: bgin 1,234,488
+00:00:43.306.994: [2] Event: 00:00:43.304, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:00:44.836.134: [2] Event: 00:00:44.836, DIN2, DIN2, 00:00:01.531.121
+00:00:46.269.609: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:05.936276-05:00, baseTime 1563880274506276, ms_offset 51430, secondsFromGMT_ -18000
+00:00:46.269.753: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:46.271.932: PLTECIEvents.m:840 PLTECIEvents:eventData: 51430000 + 1184531879 = 1235961879: rept 1,235,961
+00:00:46.273.469: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:07.440276-05:00, baseTime 1563880274506276, ms_offset 52934, secondsFromGMT_ -18000
+00:00:46.273.562: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:46.274.193: [2] Event: 00:00:44.777, rept, ECI TCP-IP 55513, -00:00:00.058.121
+00:00:46.276.397: PLTECIEvents.m:840 PLTECIEvents:eventData: 52934000 + 1184531879 = 1237465879: TRSP 1,237,465
+00:00:46.279.554: [2] Event: 00:00:46.281, TRSP, ECI TCP-IP 55513, 00:00:01.504.000
+00:00:46.280.329: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:07.447276-05:00, baseTime 1563880274506276, ms_offset 52941, secondsFromGMT_ -18000
+00:00:46.280.439: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:46.288.104: PLTECIEvents.m:840 PLTECIEvents:eventData: 52941000 + 1184531879 = 1237472879: bgin 1,237,472
+00:00:46.290.024: [2] Event: 00:00:46.288, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:00:47.967.960: [2] Event: 00:00:47.972, DIN2, DIN2, 00:00:01.683.120
+00:00:49.416.851: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:09.084276-05:00, baseTime 1563880274506276, ms_offset 54578, secondsFromGMT_ -18000
+00:00:49.416.990: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:49.419.355: PLTECIEvents.m:840 PLTECIEvents:eventData: 54578000 + 1184531879 = 1239109879: sngl 1,239,109
+00:00:49.420.762: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:10.587276-05:00, baseTime 1563880274506276, ms_offset 56081, secondsFromGMT_ -18000
+00:00:49.420.870: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:49.421.755: [2] Event: 00:00:47.925, sngl, ECI TCP-IP 55513, -00:00:00.046.120
+00:00:49.423.761: PLTECIEvents.m:840 PLTECIEvents:eventData: 56081000 + 1184531879 = 1240612879: TRSP 1,240,612
+00:00:49.427.176: [2] Event: 00:00:49.428, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:49.428.246: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:10.595276-05:00, baseTime 1563880274506276, ms_offset 56089, secondsFromGMT_ -18000
+00:00:49.428.351: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:49.435.533: PLTECIEvents.m:840 PLTECIEvents:eventData: 56089000 + 1184531879 = 1240620879: bgin 1,240,620
+00:00:49.437.432: [2] Event: 00:00:49.436, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:51.071.788: [2] Event: 00:00:51.072, DIN2, DIN2, 00:00:01.635.120
+00:00:52.515.478: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:12.183276-05:00, baseTime 1563880274506276, ms_offset 57677, secondsFromGMT_ -18000
+00:00:52.515.623: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:52.517.776: PLTECIEvents.m:840 PLTECIEvents:eventData: 57677000 + 1184531879 = 1242208879: rept 1,242,208
+00:00:52.519.066: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:13.686276-05:00, baseTime 1563880274506276, ms_offset 59180, secondsFromGMT_ -18000
+00:00:52.519.170: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:52.519.998: [2] Event: 00:00:51.024, rept, ECI TCP-IP 55513, -00:00:00.047.120
+00:00:52.522.004: PLTECIEvents.m:840 PLTECIEvents:eventData: 59180000 + 1184531879 = 1243711879: TRSP 1,243,711
+00:00:52.524.901: [2] Event: 00:00:52.527, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:52.526.058: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:13.693276-05:00, baseTime 1563880274506276, ms_offset 59187, secondsFromGMT_ -18000
+00:00:52.526.157: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:52.535.162: PLTECIEvents.m:840 PLTECIEvents:eventData: 59187000 + 1184531879 = 1243718879: bgin 1,243,718
+00:00:52.537.209: [2] Event: 00:00:52.534, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:00:54.085.585: [2] Event: 00:00:54.084, DIN2, DIN2, 00:00:01.549.121
+00:00:55.531.525: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:15.199276-05:00, baseTime 1563880274506276, ms_offset 60693, secondsFromGMT_ -18000
+00:00:55.531.669: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:55.533.930: PLTECIEvents.m:840 PLTECIEvents:eventData: 60693000 + 1184531879 = 1245224879: rept 1,245,224
+00:00:55.535.101: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:16.701276-05:00, baseTime 1563880274506276, ms_offset 62195, secondsFromGMT_ -18000
+00:00:55.535.209: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:55.536.310: [2] Event: 00:00:54.040, rept, ECI TCP-IP 55513, -00:00:00.043.121
+00:00:55.538.358: PLTECIEvents.m:840 PLTECIEvents:eventData: 62195000 + 1184531879 = 1246726879: TRSP 1,246,726
+00:00:55.541.156: [2] Event: 00:00:55.542, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:00:55.541.988: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:16.709276-05:00, baseTime 1563880274506276, ms_offset 62203, secondsFromGMT_ -18000
+00:00:55.542.094: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:55.544.086: PLTECIEvents.m:840 PLTECIEvents:eventData: 62203000 + 1184531879 = 1246734879: bgin 1,246,734
+00:00:55.546.449: [2] Event: 00:00:55.550, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:00:57.251.414: [2] Event: 00:00:57.252, DIN2, DIN2, 00:00:01.701.120
+00:00:58.697.044: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:18.364276-05:00, baseTime 1563880274506276, ms_offset 63858, secondsFromGMT_ -18000
+00:00:58.697.201: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:58.700.327: PLTECIEvents.m:840 PLTECIEvents:eventData: 63858000 + 1184531879 = 1248389879: sngl 1,248,389
+00:00:58.700.909: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:19.867276-05:00, baseTime 1563880274506276, ms_offset 65361, secondsFromGMT_ -18000
+00:00:58.701.013: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:58.702.510: [2] Event: 00:00:57.205, sngl, ECI TCP-IP 55513, -00:00:00.046.120
+00:00:58.704.520: PLTECIEvents.m:840 PLTECIEvents:eventData: 65361000 + 1184531879 = 1249892879: TRSP 1,249,892
+00:00:58.707.230: [2] Event: 00:00:58.708, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:00:58.708.291: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:19.875276-05:00, baseTime 1563880274506276, ms_offset 65369, secondsFromGMT_ -18000
+00:00:58.708.384: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:58.710.370: PLTECIEvents.m:840 PLTECIEvents:eventData: 65369000 + 1184531879 = 1249900879: bgin 1,249,900
+00:00:58.712.921: [2] Event: 00:00:58.716, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:00.404.225: [2] Event: 00:01:00.404, DIN2, DIN2, 00:00:01.687.120
+00:01:01.846.039: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:21.513276-05:00, baseTime 1563880274506276, ms_offset 67007, secondsFromGMT_ -18000
+00:01:01.846.400: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:01.849.395: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:23.016276-05:00, baseTime 1563880274506276, ms_offset 68510, secondsFromGMT_ -18000
+00:01:01.849.550: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:01.852.381: PLTECIEvents.m:840 PLTECIEvents:eventData: 67007000 + 1184531879 = 1251538879: rept 1,251,538
+00:01:01.855.068: [2] Event: 00:01:00.354, rept, ECI TCP-IP 55513, -00:00:00.049.121
+00:01:01.856.643: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:23.024276-05:00, baseTime 1563880274506276, ms_offset 68518, secondsFromGMT_ -18000
+00:01:01.856.753: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:01.857.108: PLTECIEvents.m:840 PLTECIEvents:eventData: 68510000 + 1184531879 = 1253041879: TRSP 1,253,041
+00:01:01.860.117: [2] Event: 00:01:01.857, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:01.869.712: PLTECIEvents.m:840 PLTECIEvents:eventData: 68518000 + 1184531879 = 1253049879: bgin 1,253,049
+00:01:01.872.267: [2] Event: 00:01:01.865, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:03.503.028: [2] Event: 00:01:03.504, DIN2, DIN2, 00:00:01.638.120
+00:01:04.944.613: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:24.612276-05:00, baseTime 1563880274506276, ms_offset 70106, secondsFromGMT_ -18000
+00:01:04.944.756: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:04.948.393: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:26.115276-05:00, baseTime 1563880274506276, ms_offset 71609, secondsFromGMT_ -18000
+00:01:04.948.499: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:04.950.866: PLTECIEvents.m:840 PLTECIEvents:eventData: 70106000 + 1184531879 = 1254637879: rept 1,254,637
+00:01:04.953.319: [2] Event: 00:01:03.453, rept, ECI TCP-IP 55513, -00:00:00.050.121
+00:01:04.955.711: PLTECIEvents.m:840 PLTECIEvents:eventData: 71609000 + 1184531879 = 1256140879: TRSP 1,256,140
+00:01:04.956.013: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:26.122276-05:00, baseTime 1563880274506276, ms_offset 71616, secondsFromGMT_ -18000
+00:01:04.956.121: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:04.958.764: [2] Event: 00:01:04.956, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:04.961.310: PLTECIEvents.m:840 PLTECIEvents:eventData: 71616000 + 1184531879 = 1256147879: bgin 1,256,147
+00:01:04.963.893: [2] Event: 00:01:04.963, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:01:06.775.837: [2] Event: 00:01:06.776, DIN2, DIN2, 00:00:01.812.120
+00:01:08.227.223: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:27.894276-05:00, baseTime 1563880274506276, ms_offset 73388, secondsFromGMT_ -18000
+00:01:08.227.359: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:08.230.777: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:29.397276-05:00, baseTime 1563880274506276, ms_offset 74891, secondsFromGMT_ -18000
+00:01:08.230.928: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:08.235.254: PLTECIEvents.m:840 PLTECIEvents:eventData: 73388000 + 1184531879 = 1257919879: sngl 1,257,919
+00:01:08.237.690: [2] Event: 00:01:06.735, sngl, ECI TCP-IP 55513, -00:00:00.040.121
+00:01:08.237.740: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:29.405276-05:00, baseTime 1563880274506276, ms_offset 74899, secondsFromGMT_ -18000
+00:01:08.237.836: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:08.239.772: PLTECIEvents.m:840 PLTECIEvents:eventData: 74891000 + 1184531879 = 1259422879: TRSP 1,259,422
+00:01:08.242.760: [2] Event: 00:01:08.238, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:08.245.087: PLTECIEvents.m:840 PLTECIEvents:eventData: 74899000 + 1184531879 = 1259430879: bgin 1,259,430
+00:01:08.247.303: [2] Event: 00:01:08.246, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:09.823.634: [2] Event: 00:01:09.828, DIN2, DIN2, 00:00:01.581.121
+00:01:11.242.795: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:30.910276-05:00, baseTime 1563880274506276, ms_offset 76404, secondsFromGMT_ -18000
+00:01:11.245.624: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:11.246.301: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:32.413276-05:00, baseTime 1563880274506276, ms_offset 77907, secondsFromGMT_ -18000
+00:01:11.246.434: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:11.252.212: PLTECIEvents.m:840 PLTECIEvents:eventData: 76404000 + 1184531879 = 1260935879: sngl 1,260,935
+00:01:11.253.974: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:32.421276-05:00, baseTime 1563880274506276, ms_offset 77915, secondsFromGMT_ -18000
+00:01:11.254.081: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:11.254.602: [2] Event: 00:01:09.751, sngl, ECI TCP-IP 55513, -00:00:00.076.121
+00:01:11.256.622: PLTECIEvents.m:840 PLTECIEvents:eventData: 77907000 + 1184531879 = 1262438879: TRSP 1,262,438
+00:01:11.259.615: [2] Event: 00:01:11.254, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:11.262.187: PLTECIEvents.m:840 PLTECIEvents:eventData: 77915000 + 1184531879 = 1262446879: bgin 1,262,446
+00:01:11.265.274: [2] Event: 00:01:11.262, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:12.849.357: [2] Event: 00:01:12.844, DIN2, DIN2, 00:00:01.581.121
+00:01:14.292.158: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:33.959276-05:00, baseTime 1563880274506276, ms_offset 79453, secondsFromGMT_ -18000
+00:01:14.292.307: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:14.294.752: PLTECIEvents.m:840 PLTECIEvents:eventData: 79453000 + 1184531879 = 1263984879: rept 1,263,984
+00:01:14.295.787: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:35.462276-05:00, baseTime 1563880274506276, ms_offset 80956, secondsFromGMT_ -18000
+00:01:14.295.918: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:14.297.912: [2] Event: 00:01:12.800, rept, ECI TCP-IP 55513, -00:00:00.043.121
+00:01:14.303.100: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:35.470276-05:00, baseTime 1563880274506276, ms_offset 80964, secondsFromGMT_ -18000
+00:01:14.303.245: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:14.306.365: PLTECIEvents.m:840 PLTECIEvents:eventData: 80956000 + 1184531879 = 1265487879: TRSP 1,265,487
+00:01:14.309.441: [2] Event: 00:01:14.303, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:14.311.467: PLTECIEvents.m:840 PLTECIEvents:eventData: 80964000 + 1184531879 = 1265495879: bgin 1,265,495
+00:01:14.313.880: [2] Event: 00:01:14.311, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:16.068.308: [2] Event: 00:01:16.068, DIN2, DIN2, 00:00:01.756.120
+00:01:17.491.219: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:37.158276-05:00, baseTime 1563880274506276, ms_offset 82652, secondsFromGMT_ -18000
+00:01:17.491.369: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:17.493.852: PLTECIEvents.m:840 PLTECIEvents:eventData: 82652000 + 1184531879 = 1267183879: sngl 1,267,183
+00:01:17.495.008: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:38.661276-05:00, baseTime 1563880274506276, ms_offset 84155, secondsFromGMT_ -18000
+00:01:17.495.124: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:17.496.808: [2] Event: 00:01:15.999, sngl, ECI TCP-IP 55513, -00:00:00.068.121
+00:01:17.503.030: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:38.669276-05:00, baseTime 1563880274506276, ms_offset 84163, secondsFromGMT_ -18000
+00:01:17.503.145: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:17.505.485: PLTECIEvents.m:840 PLTECIEvents:eventData: 84155000 + 1184531879 = 1268686879: TRSP 1,268,686
+00:01:17.508.282: [2] Event: 00:01:17.502, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:17.510.116: PLTECIEvents.m:840 PLTECIEvents:eventData: 84163000 + 1184531879 = 1268694879: bgin 1,268,694
+00:01:17.512.075: [2] Event: 00:01:17.510, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:19.011.095: [2] Event: 00:01:19.012, DIN2, DIN2, 00:00:01.501.120
+00:01:20.456.025: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:40.123276-05:00, baseTime 1563880274506276, ms_offset 85617, secondsFromGMT_ -18000
+00:01:20.456.170: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:20.458.407: PLTECIEvents.m:840 PLTECIEvents:eventData: 85617000 + 1184531879 = 1270148879: rept 1,270,148
+00:01:20.459.757: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:41.626276-05:00, baseTime 1563880274506276, ms_offset 87120, secondsFromGMT_ -18000
+00:01:20.459.855: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:20.460.660: [2] Event: 00:01:18.964, rept, ECI TCP-IP 55513, -00:00:00.047.120
+00:01:20.462.691: PLTECIEvents.m:840 PLTECIEvents:eventData: 87120000 + 1184531879 = 1271651879: TRSP 1,271,651
+00:01:20.465.634: [2] Event: 00:01:20.467, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:20.467.254: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:41.634276-05:00, baseTime 1563880274506276, ms_offset 87128, secondsFromGMT_ -18000
+00:01:20.467.354: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:20.474.735: PLTECIEvents.m:840 PLTECIEvents:eventData: 87128000 + 1184531879 = 1271659879: bgin 1,271,659
+00:01:20.476.698: [2] Event: 00:01:20.475, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:22.167.101: [2] Event: 00:01:22.164, DIN2, DIN2, 00:00:01.688.121
+00:01:23.605.305: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:43.272276-05:00, baseTime 1563880274506276, ms_offset 88766, secondsFromGMT_ -18000
+00:01:23.605.448: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:23.607.821: PLTECIEvents.m:840 PLTECIEvents:eventData: 88766000 + 1184531879 = 1273297879: rept 1,273,297
+00:01:23.609.155: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:44.775276-05:00, baseTime 1563880274506276, ms_offset 90269, secondsFromGMT_ -18000
+00:01:23.609.251: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:23.610.226: [2] Event: 00:01:22.113, rept, ECI TCP-IP 55513, -00:00:00.050.121
+00:01:23.612.239: PLTECIEvents.m:840 PLTECIEvents:eventData: 90269000 + 1184531879 = 1274800879: TRSP 1,274,800
+00:01:23.616.045: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:44.783276-05:00, baseTime 1563880274506276, ms_offset 90277, secondsFromGMT_ -18000
+00:01:23.616.182: PLTECICommandDelegate.mm:570 00:01:23.616.195: [2] Event: 00:01:23.616, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+'D' eci_EventData ack
+00:01:23.625.182: PLTECIEvents.m:840 PLTECIEvents:eventData: 90277000 + 1184531879 = 1274808879: bgin 1,274,808
+00:01:23.627.101: [2] Event: 00:01:23.624, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:25.184.065: [2] Event: 00:01:25.180, DIN2, DIN2, 00:00:01.555.121
+00:01:26.621.248: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:46.288276-05:00, baseTime 1563880274506276, ms_offset 91782, secondsFromGMT_ -18000
+00:01:26.621.389: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:26.623.561: PLTECIEvents.m:840 PLTECIEvents:eventData: 91782000 + 1184531879 = 1276313879: sngl 1,276,313
+00:01:26.624.967: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:47.791276-05:00, baseTime 1563880274506276, ms_offset 93285, secondsFromGMT_ -18000
+00:01:26.625.063: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:26.625.788: [2] Event: 00:01:25.129, sngl, ECI TCP-IP 55513, -00:00:00.050.121
+00:01:26.628.123: PLTECIEvents.m:840 PLTECIEvents:eventData: 93285000 + 1184531879 = 1277816879: TRSP 1,277,816
+00:01:26.631.026: [2] Event: 00:01:26.632, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:26.633.036: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:47.799276-05:00, baseTime 1563880274506276, ms_offset 93293, secondsFromGMT_ -18000
+00:01:26.633.149: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:26.640.019: PLTECIEvents.m:840 PLTECIEvents:eventData: 93293000 + 1184531879 = 1277824879: bgin 1,277,824
+00:01:26.641.981: [2] Event: 00:01:26.640, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:28.293.559: [2] Event: 00:01:28.292, DIN2, DIN2, 00:00:01.651.120
+00:01:29.736.174: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:49.403276-05:00, baseTime 1563880274506276, ms_offset 94897, secondsFromGMT_ -18000
+00:01:29.736.316: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:29.738.493: PLTECIEvents.m:840 PLTECIEvents:eventData: 94897000 + 1184531879 = 1279428879: rept 1,279,428
+00:01:29.740.140: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:50.906276-05:00, baseTime 1563880274506276, ms_offset 96400, secondsFromGMT_ -18000
+00:01:29.740.241: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:29.740.732: [2] Event: 00:01:28.244, rept, ECI TCP-IP 55513, -00:00:00.047.120
+00:01:29.742.761: PLTECIEvents.m:840 PLTECIEvents:eventData: 96400000 + 1184531879 = 1280931879: TRSP 1,280,931
+00:01:29.745.517: [2] Event: 00:01:29.747, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:29.747.838: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:50.914276-05:00, baseTime 1563880274506276, ms_offset 96408, secondsFromGMT_ -18000
+00:01:29.747.975: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:29.754.127: PLTECIEvents.m:840 PLTECIEvents:eventData: 96408000 + 1184531879 = 1280939879: bgin 1,280,939
+00:01:29.756.157: [2] Event: 00:01:29.755, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:31.307.365: [2] Event: 00:01:31.304, DIN2, DIN2, 00:00:01.548.120
+00:01:32.752.183: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:52.419276-05:00, baseTime 1563880274506276, ms_offset 97913, secondsFromGMT_ -18000
+00:01:32.752.333: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:32.754.749: PLTECIEvents.m:840 PLTECIEvents:eventData: 97913000 + 1184531879 = 1282444879: rept 1,282,444
+00:01:32.756.078: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:53.922276-05:00, baseTime 1563880274506276, ms_offset 99416, secondsFromGMT_ -18000
+00:01:32.756.186: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:32.757.139: [2] Event: 00:01:31.260, rept, ECI TCP-IP 55513, -00:00:00.043.121
+00:01:32.759.334: PLTECIEvents.m:840 PLTECIEvents:eventData: 99416000 + 1184531879 = 1283947879: TRSP 1,283,947
+00:01:32.762.367: [2] Event: 00:01:32.763, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:32.763.723: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:53.930276-05:00, baseTime 1563880274506276, ms_offset 99424, secondsFromGMT_ -18000
+00:01:32.763.827: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:32.771.568: PLTECIEvents.m:840 PLTECIEvents:eventData: 99424000 + 1184531879 = 1283955879: bgin 1,283,955
+00:01:32.773.728: [2] Event: 00:01:32.771, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:34.490.160: [2] Event: 00:01:34.492, DIN2, DIN2, 00:00:01.720.121
+00:01:35.933.611: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:55.601276-05:00, baseTime 1563880274506276, ms_offset 101095, secondsFromGMT_ -18000
+00:01:35.933.769: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:35.937.202: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:57.103276-05:00, baseTime 1563880274506276, ms_offset 102597, secondsFromGMT_ -18000
+00:01:35.937.322: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:35.937.903: PLTECIEvents.m:840 PLTECIEvents:eventData: 101095000 + 1184531879 = 1285626879: rept 1,285,626
+00:01:35.940.461: [2] Event: 00:01:34.442, rept, ECI TCP-IP 55513, -00:00:00.049.121
+00:01:35.942.687: PLTECIEvents.m:840 PLTECIEvents:eventData: 102597000 + 1184531879 = 1287128879: TRSP 1,287,128
+00:01:35.944.737: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:57.111276-05:00, baseTime 1563880274506276, ms_offset 102605, secondsFromGMT_ -18000
+00:01:35.944.845: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:35.945.756: [2] Event: 00:01:35.944, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:01:35.947.949: PLTECIEvents.m:840 PLTECIEvents:eventData: 102605000 + 1184531879 = 1287136879: bgin 1,287,136
+00:01:35.950.113: [2] Event: 00:01:35.952, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:37.596.984: [2] Event: 00:01:37.600, DIN2, DIN2, 00:00:01.647.120
+00:01:39.048.560: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:12:58.716276-05:00, baseTime 1563880274506276, ms_offset 104210, secondsFromGMT_ -18000
+00:01:39.048.731: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:39.052.066: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:00.218276-05:00, baseTime 1563880274506276, ms_offset 105712, secondsFromGMT_ -18000
+00:01:39.052.187: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:39.054.749: PLTECIEvents.m:840 PLTECIEvents:eventData: 104210000 + 1184531879 = 1288741879: sngl 1,288,741
+00:01:39.057.148: [2] Event: 00:01:37.557, sngl, ECI TCP-IP 55513, -00:00:00.042.121
+00:01:39.059.224: PLTECIEvents.m:840 PLTECIEvents:eventData: 00:01:39.059.224: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:00.226276-05:00, baseTime 1563880274506276, ms_offset 105720, secondsFromGMT_ -18000
+105712000 + 1184531879 = 1290243879: TRSP 1,290,243
+00:01:39.059.346: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:39.062.225: [2] Event: 00:01:39.059, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:01:39.064.602: PLTECIEvents.m:840 PLTECIEvents:eventData: 105720000 + 1184531879 = 1290251879: bgin 1,290,251
+00:01:39.067.029: [2] Event: 00:01:39.067, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:40.678.793: [2] Event: 00:01:40.680, DIN2, DIN2, 00:00:01.612.120
+00:01:42.114.657: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:01.782276-05:00, baseTime 1563880274506276, ms_offset 107276, secondsFromGMT_ -18000
+00:01:42.117.760: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:42.118.057: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:03.284276-05:00, baseTime 1563880274506276, ms_offset 108778, secondsFromGMT_ -18000
+00:01:42.118.149: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:42.122.209: PLTECIEvents.m:840 PLTECIEvents:eventData: 107276000 + 1184531879 = 1291807879: sngl 1,291,807
+00:01:42.123.745: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:03.291276-05:00, baseTime 1563880274506276, ms_offset 108785, secondsFromGMT_ -18000
+00:01:42.123.875: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:42.124.595: [2] Event: 00:01:40.623, sngl, ECI TCP-IP 55513, -00:00:00.056.121
+00:01:42.126.602: PLTECIEvents.m:840 PLTECIEvents:eventData: 108778000 + 1184531879 = 1293309879: TRSP 1,293,309
+00:01:42.129.595: [2] Event: 00:01:42.125, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:01:42.131.897: PLTECIEvents.m:840 PLTECIEvents:eventData: 108785000 + 1184531879 = 1293316879: bgin 1,293,316
+00:01:42.134.101: [2] Event: 00:01:42.132, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:01:43.635.709: [2] Event: 00:01:43.632, DIN2, DIN2, 00:00:01.499.120
+00:01:45.080.421: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:04.747276-05:00, baseTime 1563880274506276, ms_offset 110241, secondsFromGMT_ -18000
+00:01:45.080.570: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:45.083.478: PLTECIEvents.m:840 PLTECIEvents:eventData: 110241000 + 1184531879 = 1294772879: sngl 1,294,772
+00:01:45.084.408: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:06.250276-05:00, baseTime 1563880274506276, ms_offset 111744, secondsFromGMT_ -18000
+00:01:45.084.533: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:45.086.010: [2] Event: 00:01:43.588, sngl, ECI TCP-IP 55513, -00:00:00.043.121
+00:01:45.092.857: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:06.259276-05:00, baseTime 1563880274506276, ms_offset 111753, secondsFromGMT_ -18000
+00:01:45.093.000: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:45.094.506: PLTECIEvents.m:840 PLTECIEvents:eventData: 111744000 + 1184531879 = 1296275879: TRSP 1,296,275
+00:01:45.097.537: [2] Event: 00:01:45.091, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:45.100.008: PLTECIEvents.m:840 PLTECIEvents:eventData: 111753000 + 1184531879 = 1296284879: bgin 1,296,284
+00:01:45.102.457: [2] Event: 00:01:45.100, bgin, ECI TCP-IP 55513, 00:00:00.009.000
+00:01:46.754.429: [2] Event: 00:01:46.752, DIN2, DIN2, 00:00:01.651.120
+00:01:47.253.680: [2] Event: 00:01:47.252, DIN2, DIN2, 00:00:00.500.000
+00:01:48.196.029: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:07.863276-05:00, baseTime 1563880274506276, ms_offset 113357, secondsFromGMT_ -18000
+00:01:48.196.175: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:48.198.396: PLTECIEvents.m:840 PLTECIEvents:eventData: 113357000 + 1184531879 = 1297888879: sngl 1,297,888
+00:01:48.199.830: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:09.366276-05:00, baseTime 1563880274506276, ms_offset 114860, secondsFromGMT_ -18000
+00:01:48.200.054: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:48.201.240: [2] Event: 00:01:46.704, sngl, ECI TCP-IP 55513, -00:00:00.547.121
+00:01:48.207.305: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:09.374276-05:00, baseTime 1563880274506276, ms_offset 114868, secondsFromGMT_ -18000
+00:01:48.207.413: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:48.209.012: PLTECIEvents.m:840 PLTECIEvents:eventData: 114860000 + 1184531879 = 1299391879: TRSP 1,299,391
+00:01:48.211.738: [2] Event: 00:01:48.207, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:48.214.026: PLTECIEvents.m:840 PLTECIEvents:eventData: 114868000 + 1184531879 = 1299399879: bgin 1,299,399
+00:01:48.215.902: [2] Event: 00:01:48.215, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:49.853.909: [2] Event: 00:01:49.852, DIN2, DIN2, 00:00:01.636.120
+00:01:51.295.484: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:10.962276-05:00, baseTime 1563880274506276, ms_offset 116456, secondsFromGMT_ -18000
+00:01:51.295.633: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:51.298.035: PLTECIEvents.m:840 PLTECIEvents:eventData: 116456000 + 1184531879 = 1300987879: rept 1,300,987
+00:01:51.299.344: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:12.465276-05:00, baseTime 1563880274506276, ms_offset 117959, secondsFromGMT_ -18000
+00:01:51.299.454: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:51.300.698: [2] Event: 00:01:49.803, rept, ECI TCP-IP 55513, -00:00:00.048.121
+00:01:51.307.091: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:12.473276-05:00, baseTime 1563880274506276, ms_offset 117967, secondsFromGMT_ -18000
+00:01:51.307.204: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:51.308.978: PLTECIEvents.m:840 PLTECIEvents:eventData: 117959000 + 1184531879 = 1302490879: TRSP 1,302,490
+00:01:51.311.748: [2] Event: 00:01:51.306, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:51.314.045: PLTECIEvents.m:840 PLTECIEvents:eventData: 117967000 + 1184531879 = 1302498879: bgin 1,302,498
+00:01:51.315.928: [2] Event: 00:01:51.314, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:53.037.820: [2] Event: 00:01:53.032, DIN2, DIN2, 00:00:01.717.120
+00:01:54.477.524: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:14.144276-05:00, baseTime 1563880274506276, ms_offset 119638, secondsFromGMT_ -18000
+00:01:54.477.683: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:54.479.980: PLTECIEvents.m:840 PLTECIEvents:eventData: 119638000 + 1184531879 = 1304169879: rept 1,304,169
+00:01:54.481.326: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:15.647276-05:00, baseTime 1563880274506276, ms_offset 121141, secondsFromGMT_ -18000
+00:01:54.481.424: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:54.482.395: [2] Event: 00:01:52.985, rept, ECI TCP-IP 55513, -00:00:00.046.120
+00:01:54.488.974: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:15.655276-05:00, baseTime 1563880274506276, ms_offset 121149, secondsFromGMT_ -18000
+00:01:54.489.101: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:54.491.203: PLTECIEvents.m:840 PLTECIEvents:eventData: 121141000 + 1184531879 = 1305672879: TRSP 1,305,672
+00:01:54.493.968: [2] Event: 00:01:54.488, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:54.495.777: PLTECIEvents.m:840 PLTECIEvents:eventData: 121149000 + 1184531879 = 1305680879: bgin 1,305,680
+00:01:54.497.657: [2] Event: 00:01:54.496, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:56.131.906: [2] Event: 00:01:56.132, DIN2, DIN2, 00:00:01.635.120
+00:01:57.576.404: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:17.243276-05:00, baseTime 1563880274506276, ms_offset 122737, secondsFromGMT_ -18000
+00:01:57.576.548: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:57.579.011: PLTECIEvents.m:840 PLTECIEvents:eventData: 122737000 + 1184531879 = 1307268879: rept 1,307,268
+00:01:57.580.251: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:18.746276-05:00, baseTime 1563880274506276, ms_offset 124240, secondsFromGMT_ -18000
+00:01:57.580.367: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:57.581.444: [2] Event: 00:01:56.084, rept, ECI TCP-IP 55513, -00:00:00.047.120
+00:01:57.583.517: PLTECIEvents.m:840 PLTECIEvents:eventData: 124240000 + 1184531879 = 1308771879: TRSP 1,308,771
+00:01:57.586.833: [2] Event: 00:01:57.587, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:01:57.587.670: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:18.754276-05:00, baseTime 1563880274506276, ms_offset 124248, secondsFromGMT_ -18000
+00:01:57.587.778: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:01:57.595.334: PLTECIEvents.m:840 PLTECIEvents:eventData: 124248000 + 1184531879 = 1308779879: bgin 1,308,779
+00:01:57.597.237: [2] Event: 00:01:57.595, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:01:59.115.727: [2] Event: 00:01:59.120, DIN2, DIN2, 00:00:01.524.120
+00:02:00.557.815: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:20.225276-05:00, baseTime 1563880274506276, ms_offset 125719, secondsFromGMT_ -18000
+00:02:00.557.968: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:00.560.306: PLTECIEvents.m:840 PLTECIEvents:eventData: 125719000 + 1184531879 = 1310250879: sngl 1,310,250
+00:02:00.561.569: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:21.728276-05:00, baseTime 1563880274506276, ms_offset 127222, secondsFromGMT_ -18000
+00:02:00.561.692: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:00.562.622: [2] Event: 00:01:59.066, sngl, ECI TCP-IP 55513, -00:00:00.053.120
+00:02:00.564.683: PLTECIEvents.m:840 PLTECIEvents:eventData: 127222000 + 1184531879 = 1311753879: TRSP 1,311,753
+00:02:00.567.795: [2] Event: 00:02:00.569, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:00.568.224: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:21.735276-05:00, baseTime 1563880274506276, ms_offset 127229, secondsFromGMT_ -18000
+00:02:00.568.350: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:00.576.834: PLTECIEvents.m:840 PLTECIEvents:eventData: 127229000 + 1184531879 = 1311760879: bgin 1,311,760
+00:02:00.578.748: [2] Event: 00:02:00.576, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:02:02.293.501: [2] Event: 00:02:02.296, DIN2, DIN2, 00:00:01.719.120
+00:02:03.739.865: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:23.407276-05:00, baseTime 1563880274506276, ms_offset 128901, secondsFromGMT_ -18000
+00:02:03.739.999: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:03.742.390: PLTECIEvents.m:840 PLTECIEvents:eventData: 128901000 + 1184531879 = 1313432879: sngl 1,313,432
+00:02:03.743.245: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:24.910276-05:00, baseTime 1563880274506276, ms_offset 130404, secondsFromGMT_ -18000
+00:02:03.743.351: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:03.744.813: [2] Event: 00:02:02.248, sngl, ECI TCP-IP 55513, -00:00:00.047.120
+00:02:03.747.012: PLTECIEvents.m:840 PLTECIEvents:eventData: 130404000 + 1184531879 = 1314935879: TRSP 1,314,935
+00:02:03.750.035: [2] Event: 00:02:03.751, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:03.750.156: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:24.917276-05:00, baseTime 1563880274506276, ms_offset 130411, secondsFromGMT_ -18000
+00:02:03.750.260: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:03.759.820: PLTECIEvents.m:840 PLTECIEvents:eventData: 130411000 + 1184531879 = 1314942879: bgin 1,314,942
+00:02:03.761.949: [2] Event: 00:02:03.758, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:02:05.455.553: [2] Event: 00:02:05.452, DIN2, DIN2, 00:00:01.693.120
+00:02:06.889.216: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:26.556276-05:00, baseTime 1563880274506276, ms_offset 132050, secondsFromGMT_ -18000
+00:02:06.889.361: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:06.891.722: PLTECIEvents.m:840 PLTECIEvents:eventData: 132050000 + 1184531879 = 1316581879: rept 1,316,581
+00:02:06.893.037: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:28.059276-05:00, baseTime 1563880274506276, ms_offset 133553, secondsFromGMT_ -18000
+00:02:06.893.135: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:06.894.122: [2] Event: 00:02:05.397, rept, ECI TCP-IP 55513, -00:00:00.054.120
+00:02:06.896.320: PLTECIEvents.m:840 PLTECIEvents:eventData: 133553000 + 1184531879 = 1318084879: TRSP 1,318,084
+00:02:06.899.335: [2] Event: 00:02:06.900, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:06.900.315: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:28.067276-05:00, baseTime 1563880274506276, ms_offset 133561, secondsFromGMT_ -18000
+00:02:06.900.430: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:06.907.997: PLTECIEvents.m:840 PLTECIEvents:eventData: 133561000 + 1184531879 = 1318092879: bgin 1,318,092
+00:02:06.910.214: [2] Event: 00:02:06.908, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:08.494.167: [2] Event: 00:02:08.492, DIN2, DIN2, 00:00:01.583.121
+00:02:09.937.742: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:29.605276-05:00, baseTime 1563880274506276, ms_offset 135099, secondsFromGMT_ -18000
+00:02:09.937.908: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:09.941.229: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:31.107276-05:00, baseTime 1563880274506276, ms_offset 136601, secondsFromGMT_ -18000
+00:02:09.941.347: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:09.941.614: PLTECIEvents.m:840 PLTECIEvents:eventData: 135099000 + 1184531879 = 1319630879: sngl 1,319,630
+00:02:09.944.125: [2] Event: 00:02:08.446, sngl, ECI TCP-IP 55513, -00:00:00.045.121
+00:02:09.946.349: PLTECIEvents.m:840 PLTECIEvents:eventData: 136601000 + 1184531879 = 1321132879: TRSP 1,321,132
+00:02:09.948.646: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:31.115276-05:00, baseTime 1563880274506276, ms_offset 136609, secondsFromGMT_ -18000
+00:02:09.948.758: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:09.949.384: [2] Event: 00:02:09.948, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:02:09.952.035: PLTECIEvents.m:840 PLTECIEvents:eventData: 136609000 + 1184531879 = 1321140879: bgin 1,321,140
+00:02:09.954.390: [2] Event: 00:02:09.956, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:11.722.467: [2] Event: 00:02:11.720, DIN2, DIN2, 00:00:01.763.120
+00:02:13.171.205: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:32.838276-05:00, baseTime 1563880274506276, ms_offset 138332, secondsFromGMT_ -18000
+00:02:13.171.369: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:13.174.476: PLTECIEvents.m:840 PLTECIEvents:eventData: 138332000 + 1184531879 = 1322863879: rept 1,322,863
+00:02:13.175.265: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:34.341276-05:00, baseTime 1563880274506276, ms_offset 139835, secondsFromGMT_ -18000
+00:02:13.175.378: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:13.176.883: [2] Event: 00:02:11.679, rept, ECI TCP-IP 55513, -00:00:00.040.121
+00:02:13.179.095: PLTECIEvents.m:840 PLTECIEvents:eventData: 139835000 + 1184531879 = 1324366879: TRSP 1,324,366
+00:02:13.182.115: [2] Event: 00:02:13.182, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:13.182.941: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:34.349276-05:00, baseTime 1563880274506276, ms_offset 139843, secondsFromGMT_ -18000
+00:02:13.183.064: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:13.185.222: PLTECIEvents.m:840 PLTECIEvents:eventData: 139843000 + 1184531879 = 1324374879: bgin 1,324,374
+00:02:13.188.131: [2] Event: 00:02:13.190, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:14.892.779: [2] Event: 00:02:14.892, DIN2, DIN2, 00:00:01.701.120
+00:02:16.336.486: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:36.003276-05:00, baseTime 1563880274506276, ms_offset 141497, secondsFromGMT_ -18000
+00:02:16.336.699: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:16.340.395: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:37.506276-05:00, baseTime 1563880274506276, ms_offset 143000, secondsFromGMT_ -18000
+00:02:16.340.505: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:16.341.798: PLTECIEvents.m:840 PLTECIEvents:eventData: 141497000 + 1184531879 = 1326028879: rept 1,326,028
+00:02:16.344.187: [2] Event: 00:02:14.844, rept, ECI TCP-IP 55513, -00:00:00.047.120
+00:02:16.346.392: PLTECIEvents.m:840 PLTECIEvents:eventData: 143000000 + 1184531879 = 1327531879: TRSP 1,327,531
+00:02:16.347.372: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:37.514276-05:00, baseTime 1563880274506276, ms_offset 143008, secondsFromGMT_ -18000
+00:02:16.347.477: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:16.349.435: [2] Event: 00:02:16.347, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:16.351.869: PLTECIEvents.m:840 PLTECIEvents:eventData: 143008000 + 1184531879 = 1327539879: bgin 1,327,539
+00:02:16.354.667: [2] Event: 00:02:16.355, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:18.023.015: [2] Event: 00:02:18.024, DIN2, DIN2, 00:00:01.668.121
+00:02:19.468.228: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:39.135276-05:00, baseTime 1563880274506276, ms_offset 144629, secondsFromGMT_ -18000
+00:02:19.468.377: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:19.472.081: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:40.638276-05:00, baseTime 1563880274506276, ms_offset 146132, secondsFromGMT_ -18000
+00:02:19.472.197: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:19.474.886: PLTECIEvents.m:840 PLTECIEvents:eventData: 144629000 + 1184531879 = 1329160879: sngl 1,329,160
+00:02:19.477.176: [2] Event: 00:02:17.976, sngl, ECI TCP-IP 55513, -00:00:00.047.120
+00:02:19.479.109: PLTECIEvents.m:840 PLTECIEvents:eventData: 146132000 + 1184531879 = 1330663879: TRSP 1,330,663
+00:02:19.479.723: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:40.646276-05:00, baseTime 1563880274506276, ms_offset 146140, secondsFromGMT_ -18000
+00:02:19.479.828: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:19.481.898: [2] Event: 00:02:19.479, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:19.484.092: PLTECIEvents.m:840 PLTECIEvents:eventData: 146140000 + 1184531879 = 1330671879: bgin 1,330,671
+00:02:19.486.064: [2] Event: 00:02:19.487, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:21.149.378: [2] Event: 00:02:21.152, DIN2, DIN2, 00:00:01.664.121
+00:02:22.599.835: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:42.267276-05:00, baseTime 1563880274506276, ms_offset 147761, secondsFromGMT_ -18000
+00:02:22.599.978: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:22.602.432: PLTECIEvents.m:840 PLTECIEvents:eventData: 147761000 + 1184531879 = 1332292879: rept 1,332,292
+00:02:22.603.434: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:43.769276-05:00, baseTime 1563880274506276, ms_offset 149263, secondsFromGMT_ -18000
+00:02:22.603.568: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:22.605.320: [2] Event: 00:02:21.108, rept, ECI TCP-IP 55513, -00:00:00.043.121
+00:02:22.610.776: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:43.777276-05:00, baseTime 1563880274506276, ms_offset 149271, secondsFromGMT_ -18000
+00:02:22.610.916: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:22.614.354: PLTECIEvents.m:840 PLTECIEvents:eventData: 149263000 + 1184531879 = 1333794879: TRSP 1,333,794
+00:02:22.617.151: [2] Event: 00:02:22.610, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:02:22.618.995: PLTECIEvents.m:840 PLTECIEvents:eventData: 149271000 + 1184531879 = 1333802879: bgin 1,333,802
+00:02:22.621.256: [2] Event: 00:02:22.618, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:24.341.177: [2] Event: 00:02:24.344, DIN2, DIN2, 00:00:01.725.120
+00:02:24.992.203: [2] Event: 00:02:24.992, DIN2, DIN2, 00:00:00.648.000
+00:02:25.782.387: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:45.449276-05:00, baseTime 1563880274506276, ms_offset 150943, secondsFromGMT_ -18000
+00:02:25.782.530: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:25.784.944: PLTECIEvents.m:840 PLTECIEvents:eventData: 150943000 + 1184531879 = 1335474879: sngl 1,335,474
+00:02:25.786.159: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:46.952276-05:00, baseTime 1563880274506276, ms_offset 152446, secondsFromGMT_ -18000
+00:02:25.786.257: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:25.787.843: [2] Event: 00:02:24.290, sngl, ECI TCP-IP 55513, -00:00:00.701.121
+00:02:25.793.502: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:46.960276-05:00, baseTime 1563880274506276, ms_offset 152454, secondsFromGMT_ -18000
+00:02:25.793.624: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:25.797.405: PLTECIEvents.m:840 PLTECIEvents:eventData: 152446000 + 1184531879 = 1336977879: TRSP 1,336,977
+00:02:25.800.199: [2] Event: 00:02:25.793, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:25.802.021: PLTECIEvents.m:840 PLTECIEvents:eventData: 152454000 + 1184531879 = 1336985879: bgin 1,336,985
+00:02:25.803.947: [2] Event: 00:02:25.801, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:27.557.306: [2] Event: 00:02:27.556, DIN2, DIN2, 00:00:01.754.120
+00:02:28.997.899: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:48.665276-05:00, baseTime 1563880274506276, ms_offset 154159, secondsFromGMT_ -18000
+00:02:28.998.036: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:29.000.294: PLTECIEvents.m:840 PLTECIEvents:eventData: 154159000 + 1184531879 = 1338690879: sngl 1,338,690
+00:02:29.001.436: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:50.168276-05:00, baseTime 1563880274506276, ms_offset 155662, secondsFromGMT_ -18000
+00:02:29.001.544: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:29.002.584: [2] Event: 00:02:27.506, sngl, ECI TCP-IP 55513, -00:00:00.049.121
+00:02:29.008.533: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:50.175276-05:00, baseTime 1563880274506276, ms_offset 155669, secondsFromGMT_ -18000
+00:02:29.008.683: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:29.011.949: PLTECIEvents.m:840 PLTECIEvents:eventData: 155662000 + 1184531879 = 1340193879: TRSP 1,340,193
+00:02:29.014.758: [2] Event: 00:02:29.009, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:29.016.584: PLTECIEvents.m:840 PLTECIEvents:eventData: 155669000 + 1184531879 = 1340200879: bgin 1,340,200
+00:02:29.018.489: [2] Event: 00:02:29.016, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:02:30.735.811: [2] Event: 00:02:30.740, DIN2, DIN2, 00:00:01.723.120
+00:02:32.180.683: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:51.847276-05:00, baseTime 1563880274506276, ms_offset 157341, secondsFromGMT_ -18000
+00:02:32.180.822: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:32.183.001: PLTECIEvents.m:840 PLTECIEvents:eventData: 157341000 + 1184531879 = 1341872879: rept 1,341,872
+00:02:32.184.750: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:53.351276-05:00, baseTime 1563880274506276, ms_offset 158845, secondsFromGMT_ -18000
+00:02:32.184.847: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:32.185.235: [2] Event: 00:02:30.688, rept, ECI TCP-IP 55513, -00:00:00.051.121
+00:02:32.187.271: PLTECIEvents.m:840 PLTECIEvents:eventData: 158845000 + 1184531879 = 1343376879: TRSP 1,343,376
+00:02:32.190.125: [2] Event: 00:02:32.192, TRSP, ECI TCP-IP 55513, 00:00:01.504.000
+00:02:32.192.154: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:53.358276-05:00, baseTime 1563880274506276, ms_offset 158852, secondsFromGMT_ -18000
+00:02:32.192.260: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:32.198.983: PLTECIEvents.m:840 PLTECIEvents:eventData: 158852000 + 1184531879 = 1343383879: bgin 1,343,383
+00:02:32.200.912: [2] Event: 00:02:32.199, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:02:33.918.612: [2] Event: 00:02:33.920, DIN2, DIN2, 00:00:01.720.121
+00:02:35.362.639: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:55.029276-05:00, baseTime 1563880274506276, ms_offset 160523, secondsFromGMT_ -18000
+00:02:35.362.784: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:35.365.212: PLTECIEvents.m:840 PLTECIEvents:eventData: 160523000 + 1184531879 = 1345054879: sngl 1,345,054
+00:02:35.366.425: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:56.532276-05:00, baseTime 1563880274506276, ms_offset 162026, secondsFromGMT_ -18000
+00:02:35.366.522: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:35.367.654: [2] Event: 00:02:33.870, sngl, ECI TCP-IP 55513, -00:00:00.049.121
+00:02:35.369.935: PLTECIEvents.m:840 PLTECIEvents:eventData: 162026000 + 1184531879 = 1346557879: TRSP 1,346,557
+00:02:35.373.840: [2] Event: 00:02:35.373, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:35.374.000: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:56.540276-05:00, baseTime 1563880274506276, ms_offset 162034, secondsFromGMT_ -18000
+00:02:35.374.112: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:35.382.646: PLTECIEvents.m:840 PLTECIEvents:eventData: 162034000 + 1184531879 = 1346565879: bgin 1,346,565
+00:02:35.384.785: [2] Event: 00:02:35.381, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:37.031.422: [2] Event: 00:02:37.032, DIN2, DIN2, 00:00:01.650.121
+00:02:38.477.855: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:58.145276-05:00, baseTime 1563880274506276, ms_offset 163639, secondsFromGMT_ -18000
+00:02:38.478.007: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:38.480.384: PLTECIEvents.m:840 PLTECIEvents:eventData: 163639000 + 1184531879 = 1348170879: rept 1,348,170
+00:02:38.481.471: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:59.647276-05:00, baseTime 1563880274506276, ms_offset 165141, secondsFromGMT_ -18000
+00:02:38.481.560: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:38.482.956: [2] Event: 00:02:36.986, rept, ECI TCP-IP 55513, -00:00:00.045.121
+00:02:38.485.407: PLTECIEvents.m:840 PLTECIEvents:eventData: 165141000 + 1184531879 = 1349672879: TRSP 1,349,672
+00:02:38.488.375: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:13:59.655276-05:00, baseTime 1563880274506276, ms_offset 165149, secondsFromGMT_ -18000
+00:02:38.488.583: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:38.488.747: [2] Event: 00:02:38.488, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:02:38.498.170: PLTECIEvents.m:840 PLTECIEvents:eventData: 165149000 + 1184531879 = 1349680879: bgin 1,349,680
+00:02:38.500.287: [2] Event: 00:02:38.496, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:39.942.098: [2] Event: 00:02:39.940, DIN2, DIN2, 00:00:01.443.120
+00:02:41.393.316: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:01.060276-05:00, baseTime 1563880274506276, ms_offset 166554, secondsFromGMT_ -18000
+00:02:41.395.838: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:41.397.411: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:02.563276-05:00, baseTime 1563880274506276, ms_offset 168057, secondsFromGMT_ -18000
+00:02:41.397.524: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:41.398.325: PLTECIEvents.m:840 PLTECIEvents:eventData: 166554000 + 1184531879 = 1351085879: rept 1,351,085
+00:02:41.400.784: [2] Event: 00:02:39.901, rept, ECI TCP-IP 55513, -00:00:00.038.120
+00:02:41.403.144: PLTECIEvents.m:840 PLTECIEvents:eventData: 168057000 + 1184531879 = 1352588879: TRSP 1,352,588
+00:02:41.406.695: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:02.573276-05:00, baseTime 1563880274506276, ms_offset 168067, secondsFromGMT_ -18000
+00:02:41.406.799: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:41.406.856: [2] Event: 00:02:41.404, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:41.415.239: PLTECIEvents.m:840 PLTECIEvents:eventData: 168067000 + 1184531879 = 1352598879: bgin 1,352,598
+00:02:41.417.400: [2] Event: 00:02:41.414, bgin, ECI TCP-IP 55513, 00:00:00.010.000
+00:02:42.958.798: [2] Event: 00:02:42.960, DIN2, DIN2, 00:00:01.545.121
+00:02:44.408.821: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:04.076276-05:00, baseTime 1563880274506276, ms_offset 169570, secondsFromGMT_ -18000
+00:02:44.409.020: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:44.411.558: PLTECIEvents.m:840 PLTECIEvents:eventData: 169570000 + 1184531879 = 1354101879: rept 1,354,101
+00:02:44.412.396: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:05.578276-05:00, baseTime 1563880274506276, ms_offset 171072, secondsFromGMT_ -18000
+00:02:44.412.498: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:44.414.039: [2] Event: 00:02:42.917, rept, ECI TCP-IP 55513, -00:00:00.042.121
+00:02:44.416.268: PLTECIEvents.m:840 PLTECIEvents:eventData: 171072000 + 1184531879 = 1355603879: TRSP 1,355,603
+00:02:44.419.320: [2] Event: 00:02:44.419, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:02:44.419.839: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:05.586276-05:00, baseTime 1563880274506276, ms_offset 171080, secondsFromGMT_ -18000
+00:02:44.419.942: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:44.422.959: PLTECIEvents.m:840 PLTECIEvents:eventData: 171080000 + 1184531879 = 1355611879: bgin 1,355,611
+00:02:44.425.250: [2] Event: 00:02:44.427, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:46.129.879: [2] Event: 00:02:46.132, DIN2, DIN2, 00:00:01.704.121
+00:02:47.574.280: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:07.241276-05:00, baseTime 1563880274506276, ms_offset 172735, secondsFromGMT_ -18000
+00:02:47.574.424: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:47.577.849: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:08.744276-05:00, baseTime 1563880274506276, ms_offset 174238, secondsFromGMT_ -18000
+00:02:47.577.962: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:47.578.252: PLTECIEvents.m:840 PLTECIEvents:eventData: 172735000 + 1184531879 = 1357266879: sngl 1,357,266
+00:02:47.580.646: [2] Event: 00:02:46.082, sngl, ECI TCP-IP 55513, -00:00:00.049.121
+00:02:47.582.865: PLTECIEvents.m:840 PLTECIEvents:eventData: 174238000 + 1184531879 = 1358769879: TRSP 1,358,769
+00:02:47.584.877: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:08.751276-05:00, baseTime 1563880274506276, ms_offset 174245, secondsFromGMT_ -18000
+00:02:47.584.983: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:47.585.905: [2] Event: 00:02:47.585, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:47.588.102: PLTECIEvents.m:840 PLTECIEvents:eventData: 174245000 + 1184531879 = 1358776879: bgin 1,358,776
+00:02:47.590.797: [2] Event: 00:02:47.592, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:02:49.161.687: [2] Event: 00:02:49.160, DIN2, DIN2, 00:00:01.567.121
+00:02:50.607.269: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:10.274276-05:00, baseTime 1563880274506276, ms_offset 175768, secondsFromGMT_ -18000
+00:02:50.607.410: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:50.611.069: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:11.777276-05:00, baseTime 1563880274506276, ms_offset 177271, secondsFromGMT_ -18000
+00:02:50.611.161: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:50.611.385: PLTECIEvents.m:840 PLTECIEvents:eventData: 175768000 + 1184531879 = 1360299879: sngl 1,360,299
+00:02:50.613.688: [2] Event: 00:02:49.115, sngl, ECI TCP-IP 55513, -00:00:00.044.121
+00:02:50.615.772: PLTECIEvents.m:840 PLTECIEvents:eventData: 177271000 + 1184531879 = 1361802879: TRSP 1,361,802
+00:02:50.618.170: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:11.785276-05:00, baseTime 1563880274506276, ms_offset 177279, secondsFromGMT_ -18000
+00:02:50.618.277: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:50.618.611: [2] Event: 00:02:50.618, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:50.620.979: PLTECIEvents.m:840 PLTECIEvents:eventData: 177279000 + 1184531879 = 1361810879: bgin 1,361,810
+00:02:50.623.312: [2] Event: 00:02:50.626, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:52.400.516: [2] Event: 00:02:52.400, DIN2, DIN2, 00:00:01.773.121
+00:02:53.838.899: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:13.506276-05:00, baseTime 1563880274506276, ms_offset 179000, secondsFromGMT_ -18000
+00:02:53.839.081: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:53.842.375: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:15.008276-05:00, baseTime 1563880274506276, ms_offset 180502, secondsFromGMT_ -18000
+00:02:53.842.479: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:53.844.754: PLTECIEvents.m:840 PLTECIEvents:eventData: 179000000 + 1184531879 = 1363531879: sngl 1,363,531
+00:02:53.847.031: [2] Event: 00:02:52.347, sngl, ECI TCP-IP 55513, -00:00:00.052.121
+00:02:53.848.913: PLTECIEvents.m:840 PLTECIEvents:eventData: 180502000 + 1184531879 = 1365033879: TRSP 1,365,033
+00:02:53.849.351: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:15.016276-05:00, baseTime 1563880274506276, ms_offset 180510, secondsFromGMT_ -18000
+00:02:53.849.473: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:53.851.697: [2] Event: 00:02:53.849, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:02:53.853.875: PLTECIEvents.m:840 PLTECIEvents:eventData: 180510000 + 1184531879 = 1365041879: bgin 1,365,041
+00:02:53.855.804: [2] Event: 00:02:53.857, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:55.497.312: [2] Event: 00:02:55.500, DIN2, DIN2, 00:00:01.642.121
+00:02:56.938.651: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:16.605276-05:00, baseTime 1563880274506276, ms_offset 182099, secondsFromGMT_ -18000
+00:02:56.938.830: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:56.942.473: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:18.108276-05:00, baseTime 1563880274506276, ms_offset 183602, secondsFromGMT_ -18000
+00:02:56.942.620: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:56.946.148: PLTECIEvents.m:840 PLTECIEvents:eventData: 182099000 + 1184531879 = 1366630879: rept 1,366,630
+00:02:56.948.387: [2] Event: 00:02:55.446, rept, ECI TCP-IP 55513, -00:00:00.053.120
+00:02:56.950.225: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:18.116276-05:00, baseTime 1563880274506276, ms_offset 183610, secondsFromGMT_ -18000
+00:02:56.950.281: PLTECIEvents.m:840 PLTECIEvents:eventData: 00:02:56.950.339: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+183602000 + 1184531879 = 1368133879: TRSP 1,368,133
+00:02:56.953.149: [2] Event: 00:02:56.949, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:56.955.347: PLTECIEvents.m:840 PLTECIEvents:eventData: 183610000 + 1184531879 = 1368141879: bgin 1,368,141
+00:02:56.957.676: [2] Event: 00:02:56.957, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:02:58.519.130: [2] Event: 00:02:58.520, DIN2, DIN2, 00:00:01.562.120
+00:02:59.970.462: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:19.637276-05:00, baseTime 1563880274506276, ms_offset 185131, secondsFromGMT_ -18000
+00:02:59.970.597: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:59.972.988: PLTECIEvents.m:840 PLTECIEvents:eventData: 185131000 + 1184531879 = 1369662879: rept 1,369,662
+00:02:59.974.192: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:21.140276-05:00, baseTime 1563880274506276, ms_offset 186634, secondsFromGMT_ -18000
+00:02:59.974.322: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:59.975.847: [2] Event: 00:02:58.478, rept, ECI TCP-IP 55513, -00:00:00.041.121
+00:02:59.981.735: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:21.148276-05:00, baseTime 1563880274506276, ms_offset 186642, secondsFromGMT_ -18000
+00:02:59.981.861: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:02:59.985.139: PLTECIEvents.m:840 PLTECIEvents:eventData: 186634000 + 1184531879 = 1371165879: TRSP 1,371,165
+00:02:59.987.959: [2] Event: 00:02:59.981, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:02:59.989.794: PLTECIEvents.m:840 PLTECIEvents:eventData: 186642000 + 1184531879 = 1371173879: bgin 1,371,173
+00:02:59.992.460: [2] Event: 00:02:59.989, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:01.586.945: [2] Event: 00:03:01.592, DIN2, DIN2, 00:00:01.602.120
+00:03:03.035.158: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:22.702276-05:00, baseTime 1563880274506276, ms_offset 188196, secondsFromGMT_ -18000
+00:03:03.035.341: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:03.038.349: PLTECIEvents.m:840 PLTECIEvents:eventData: 188196000 + 1184531879 = 1372727879: rept 1,372,727
+00:03:03.038.731: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:24.205276-05:00, baseTime 1563880274506276, ms_offset 189699, secondsFromGMT_ -18000
+00:03:03.038.848: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:03.040.952: [2] Event: 00:03:01.543, rept, ECI TCP-IP 55513, -00:00:00.048.121
+00:03:03.046.397: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:24.212276-05:00, baseTime 1563880274506276, ms_offset 189706, secondsFromGMT_ -18000
+00:03:03.046.503: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:03.049.399: PLTECIEvents.m:840 PLTECIEvents:eventData: 189699000 + 1184531879 = 1374230879: TRSP 1,374,230
+00:03:03.052.231: [2] Event: 00:03:03.046, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:03.054.091: PLTECIEvents.m:840 PLTECIEvents:eventData: 189706000 + 1184531879 = 1374237879: bgin 1,374,237
+00:03:03.056.012: [2] Event: 00:03:03.053, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:03:04.794.836: [2] Event: 00:03:04.796, DIN2, DIN2, 00:00:01.742.121
+00:03:06.234.397: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:25.901276-05:00, baseTime 1563880274506276, ms_offset 191395, secondsFromGMT_ -18000
+00:03:06.234.543: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:06.237.134: PLTECIEvents.m:840 PLTECIEvents:eventData: 191395000 + 1184531879 = 1375926879: sngl 1,375,926
+00:03:06.238.117: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:27.404276-05:00, baseTime 1563880274506276, ms_offset 192898, secondsFromGMT_ -18000
+00:03:06.238.227: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:06.239.662: [2] Event: 00:03:04.742, sngl, ECI TCP-IP 55513, -00:00:00.053.120
+00:03:06.245.341: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:27.412276-05:00, baseTime 1563880274506276, ms_offset 192906, secondsFromGMT_ -18000
+00:03:06.245.486: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:06.248.714: PLTECIEvents.m:840 PLTECIEvents:eventData: 192898000 + 1184531879 = 1377429879: TRSP 1,377,429
+00:03:06.251.816: [2] Event: 00:03:06.245, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:06.253.814: PLTECIEvents.m:840 PLTECIEvents:eventData: 192906000 + 1184531879 = 1377437879: bgin 1,377,437
+00:03:06.255.902: [2] Event: 00:03:06.253, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:07.810.997: [2] Event: 00:03:07.808, DIN2, DIN2, 00:00:01.554.120
+00:03:09.249.992: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:28.917276-05:00, baseTime 1563880274506276, ms_offset 194411, secondsFromGMT_ -18000
+00:03:09.250.139: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:09.252.688: PLTECIEvents.m:840 PLTECIEvents:eventData: 194411000 + 1184531879 = 1378942879: sngl 1,378,942
+00:03:09.253.571: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:30.419276-05:00, baseTime 1563880274506276, ms_offset 195913, secondsFromGMT_ -18000
+00:03:09.253.681: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:09.255.206: [2] Event: 00:03:07.758, sngl, ECI TCP-IP 55513, -00:00:00.049.121
+00:03:09.257.467: PLTECIEvents.m:840 PLTECIEvents:eventData: 195913000 + 1184531879 = 1380444879: TRSP 1,380,444
+00:03:09.260.613: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:30.427276-05:00, baseTime 1563880274506276, ms_offset 195921, secondsFromGMT_ -18000
+00:03:09.260.726: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:09.261.161: [2] Event: 00:03:09.260, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:03:09.270.642: PLTECIEvents.m:840 PLTECIEvents:eventData: 195921000 + 1184531879 = 1380452879: bgin 1,380,452
+00:03:09.272.742: [2] Event: 00:03:09.268, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:10.745.725: [2] Event: 00:03:10.740, DIN2, DIN2, 00:00:01.471.120
+00:03:12.181.975: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:31.849276-05:00, baseTime 1563880274506276, ms_offset 197343, secondsFromGMT_ -18000
+00:03:12.184.744: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:12.185.572: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:33.351276-05:00, baseTime 1563880274506276, ms_offset 198845, secondsFromGMT_ -18000
+00:03:12.185.723: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:12.187.538: PLTECIEvents.m:840 PLTECIEvents:eventData: 197343000 + 1184531879 = 1381874879: rept 1,381,874
+00:03:12.190.176: [2] Event: 00:03:10.690, rept, ECI TCP-IP 55513, -00:00:00.049.121
+00:03:12.192.559: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:33.359276-05:00, baseTime 1563880274506276, ms_offset 198853, secondsFromGMT_ -18000
+00:03:12.192.693: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:12.199.141: PLTECIEvents.m:840 PLTECIEvents:eventData: 198845000 + 1184531879 = 1383376879: TRSP 1,383,376
+00:03:12.202.219: [2] Event: 00:03:12.192, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:03:12.204.227: PLTECIEvents.m:840 PLTECIEvents:eventData: 198853000 + 1184531879 = 1383384879: bgin 1,383,384
+00:03:12.206.298: [2] Event: 00:03:12.200, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:13.688.201: [2] Event: 00:03:13.692, DIN2, DIN2, 00:00:01.491.120
+00:03:15.131.479: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:34.798276-05:00, baseTime 1563880274506276, ms_offset 200292, secondsFromGMT_ -18000
+00:03:15.131.620: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:15.134.007: PLTECIEvents.m:840 PLTECIEvents:eventData: 200292000 + 1184531879 = 1384823879: rept 1,384,823
+00:03:15.135.037: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:36.301276-05:00, baseTime 1563880274506276, ms_offset 201795, secondsFromGMT_ -18000
+00:03:15.135.128: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:15.136.593: [2] Event: 00:03:13.639, rept, ECI TCP-IP 55513, -00:00:00.052.121
+00:03:15.138.814: PLTECIEvents.m:840 PLTECIEvents:eventData: 201795000 + 1184531879 = 1386326879: TRSP 1,386,326
+00:03:15.142.048: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:36.309276-05:00, baseTime 1563880274506276, ms_offset 201803, secondsFromGMT_ -18000
+00:03:15.142.163: [2] Event: 00:03:15.142, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:15.142.212: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:15.152.956: PLTECIEvents.m:840 PLTECIEvents:eventData: 201803000 + 1184531879 = 1386334879: bgin 1,386,334
+00:03:15.155.059: [2] Event: 00:03:15.150, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:16.752.030: [2] Event: 00:03:16.752, DIN2, DIN2, 00:00:01.601.121
+00:03:18.196.311: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:37.863276-05:00, baseTime 1563880274506276, ms_offset 203357, secondsFromGMT_ -18000
+00:03:18.196.459: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:18.198.841: PLTECIEvents.m:840 PLTECIEvents:eventData: 203357000 + 1184531879 = 1387888879: rept 1,387,888
+00:03:18.199.991: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:39.366276-05:00, baseTime 1563880274506276, ms_offset 204860, secondsFromGMT_ -18000
+00:03:18.200.090: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:18.201.259: [2] Event: 00:03:16.704, rept, ECI TCP-IP 55513, -00:00:00.047.120
+00:03:18.203.463: PLTECIEvents.m:840 PLTECIEvents:eventData: 204860000 + 1184531879 = 1389391879: TRSP 1,389,391
+00:03:18.206.521: [2] Event: 00:03:18.207, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:18.206.949: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:39.373276-05:00, baseTime 1563880274506276, ms_offset 204867, secondsFromGMT_ -18000
+00:03:18.207.048: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:18.209.201: PLTECIEvents.m:840 PLTECIEvents:eventData: 204867000 + 1184531879 = 1389398879: bgin 1,389,398
+00:03:18.211.853: [2] Event: 00:03:18.214, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:03:19.813.369: [2] Event: 00:03:19.816, DIN2, DIN2, 00:00:01.601.121
+00:03:21.262.397: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:40.929276-05:00, baseTime 1563880274506276, ms_offset 206423, secondsFromGMT_ -18000
+00:03:21.262.558: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:21.265.136: PLTECIEvents.m:840 PLTECIEvents:eventData: 206423000 + 1184531879 = 1390954879: sngl 1,390,954
+00:03:21.266.041: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:42.432276-05:00, baseTime 1563880274506276, ms_offset 207926, secondsFromGMT_ -18000
+00:03:21.266.144: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:21.267.507: [2] Event: 00:03:19.770, sngl, ECI TCP-IP 55513, -00:00:00.045.121
+00:03:21.269.601: PLTECIEvents.m:840 PLTECIEvents:eventData: 207926000 + 1184531879 = 1392457879: TRSP 1,392,457
+00:03:21.272.511: [2] Event: 00:03:21.273, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:21.273.146: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:42.440276-05:00, baseTime 1563880274506276, ms_offset 207934, secondsFromGMT_ -18000
+00:03:21.273.279: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:21.275.261: PLTECIEvents.m:840 PLTECIEvents:eventData: 207934000 + 1184531879 = 1392465879: bgin 1,392,465
+00:03:21.277.251: [2] Event: 00:03:21.281, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:22.813.310: [2] Event: 00:03:22.812, DIN2, DIN2, 00:00:01.530.120
+00:03:24.260.994: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:43.928276-05:00, baseTime 1563880274506276, ms_offset 209422, secondsFromGMT_ -18000
+00:03:24.261.140: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:24.264.559: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:45.430276-05:00, baseTime 1563880274506276, ms_offset 210924, secondsFromGMT_ -18000
+00:03:24.264.682: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:24.265.370: PLTECIEvents.m:840 PLTECIEvents:eventData: 209422000 + 1184531879 = 1393953879: rept 1,393,953
+00:03:24.267.598: [2] Event: 00:03:22.769, rept, ECI TCP-IP 55513, -00:00:00.042.121
+00:03:24.269.657: PLTECIEvents.m:840 PLTECIEvents:eventData: 210924000 + 1184531879 = 1395455879: TRSP 1,395,455
+00:03:24.271.806: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:45.438276-05:00, baseTime 1563880274506276, ms_offset 210932, secondsFromGMT_ -18000
+00:03:24.271.917: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:24.272.445: [2] Event: 00:03:24.271, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:03:24.274.730: PLTECIEvents.m:840 PLTECIEvents:eventData: 210932000 + 1184531879 = 1395463879: bgin 1,395,463
+00:03:24.276.787: [2] Event: 00:03:24.279, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:25.879.606: [2] Event: 00:03:25.880, DIN2, DIN2, 00:00:01.600.120
+00:03:27.326.363: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:46.993276-05:00, baseTime 1563880274506276, ms_offset 212487, secondsFromGMT_ -18000
+00:03:27.326.578: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:27.330.206: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:48.496276-05:00, baseTime 1563880274506276, ms_offset 213990, secondsFromGMT_ -18000
+00:03:27.330.329: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:27.332.618: PLTECIEvents.m:840 PLTECIEvents:eventData: 212487000 + 1184531879 = 1397018879: sngl 1,397,018
+00:03:27.334.845: [2] Event: 00:03:25.834, sngl, ECI TCP-IP 55513, -00:00:00.045.121
+00:03:27.336.722: PLTECIEvents.m:840 PLTECIEvents:eventData: 213990000 + 1184531879 = 1398521879: TRSP 1,398,521
+00:03:27.337.706: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:48.504276-05:00, baseTime 1563880274506276, ms_offset 213998, secondsFromGMT_ -18000
+00:03:27.337.821: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:27.339.484: [2] Event: 00:03:27.337, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:27.341.648: PLTECIEvents.m:840 PLTECIEvents:eventData: 213998000 + 1184531879 = 1398529879: bgin 1,398,529
+00:03:27.343.811: [2] Event: 00:03:27.345, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:29.064.464: [2] Event: 00:03:29.060, DIN2, DIN2, 00:00:01.714.121
+00:03:30.508.978: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:50.176276-05:00, baseTime 1563880274506276, ms_offset 215670, secondsFromGMT_ -18000
+00:03:30.509.124: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:30.512.725: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:51.678276-05:00, baseTime 1563880274506276, ms_offset 217172, secondsFromGMT_ -18000
+00:03:30.512.843: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:30.515.735: PLTECIEvents.m:840 PLTECIEvents:eventData: 215670000 + 1184531879 = 1400201879: rept 1,400,201
+00:03:30.518.051: [2] Event: 00:03:29.017, rept, ECI TCP-IP 55513, -00:00:00.042.121
+00:03:30.519.478: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:51.686276-05:00, baseTime 1563880274506276, ms_offset 217180, secondsFromGMT_ -18000
+00:03:30.519.583: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:30.520.000: PLTECIEvents.m:840 PLTECIEvents:eventData: 217172000 + 1184531879 = 1401703879: TRSP 1,401,703
+00:03:30.522.794: [2] Event: 00:03:30.519, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:03:30.525.010: PLTECIEvents.m:840 PLTECIEvents:eventData: 217180000 + 1184531879 = 1401711879: bgin 1,401,711
+00:03:30.527.436: [2] Event: 00:03:30.527, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:32.131.045: [2] Event: 00:03:32.128, DIN2, DIN2, 00:00:01.600.120
+00:03:33.574.511: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:53.241276-05:00, baseTime 1563880274506276, ms_offset 218735, secondsFromGMT_ -18000
+00:03:33.574.651: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:33.577.113: PLTECIEvents.m:840 PLTECIEvents:eventData: 218735000 + 1184531879 = 1403266879: rept 1,403,266
+00:03:33.578.175: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:54.744276-05:00, baseTime 1563880274506276, ms_offset 220238, secondsFromGMT_ -18000
+00:03:33.578.388: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:33.580.157: [2] Event: 00:03:32.082, rept, ECI TCP-IP 55513, -00:00:00.045.121
+00:03:33.585.053: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:54.752276-05:00, baseTime 1563880274506276, ms_offset 220246, secondsFromGMT_ -18000
+00:03:33.585.173: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:33.588.477: PLTECIEvents.m:840 PLTECIEvents:eventData: 220238000 + 1184531879 = 1404769879: TRSP 1,404,769
+00:03:33.591.267: [2] Event: 00:03:33.585, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:33.593.116: PLTECIEvents.m:840 PLTECIEvents:eventData: 220246000 + 1184531879 = 1404777879: bgin 1,404,777
+00:03:33.595.238: [2] Event: 00:03:33.593, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:35.164.682: [2] Event: 00:03:35.168, DIN2, DIN2, 00:00:01.574.120
+00:03:36.606.715: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:56.273276-05:00, baseTime 1563880274506276, ms_offset 221767, secondsFromGMT_ -18000
+00:03:36.606.858: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:36.609.470: PLTECIEvents.m:840 PLTECIEvents:eventData: 221767000 + 1184531879 = 1406298879: rept 1,406,298
+00:03:36.610.675: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:57.776276-05:00, baseTime 1563880274506276, ms_offset 223270, secondsFromGMT_ -18000
+00:03:36.610.847: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:36.612.212: [2] Event: 00:03:35.114, rept, ECI TCP-IP 55513, -00:00:00.053.120
+00:03:36.617.781: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:57.784276-05:00, baseTime 1563880274506276, ms_offset 223278, secondsFromGMT_ -18000
+00:03:36.617.909: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:36.620.532: PLTECIEvents.m:840 PLTECIEvents:eventData: 223270000 + 1184531879 = 1407801879: TRSP 1,407,801
+00:03:36.623.625: [2] Event: 00:03:36.617, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:36.625.650: PLTECIEvents.m:840 PLTECIEvents:eventData: 223278000 + 1184531879 = 1407809879: bgin 1,407,809
+00:03:36.627.883: [2] Event: 00:03:36.625, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:38.106.771: [2] Event: 00:03:38.108, DIN2, DIN2, 00:00:01.482.121
+00:03:39.555.514: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:14:59.222276-05:00, baseTime 1563880274506276, ms_offset 224716, secondsFromGMT_ -18000
+00:03:39.555.663: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:39.558.111: PLTECIEvents.m:840 PLTECIEvents:eventData: 224716000 + 1184531879 = 1409247879: rept 1,409,247
+00:03:39.559.487: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:00.725276-05:00, baseTime 1563880274506276, ms_offset 226219, secondsFromGMT_ -18000
+00:03:39.559.593: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:39.560.677: [2] Event: 00:03:38.063, rept, ECI TCP-IP 55513, -00:00:00.044.121
+00:03:39.566.538: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:00.733276-05:00, baseTime 1563880274506276, ms_offset 226227, secondsFromGMT_ -18000
+00:03:39.566.657: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:39.569.443: PLTECIEvents.m:840 PLTECIEvents:eventData: 226219000 + 1184531879 = 1410750879: TRSP 1,410,750
+00:03:39.572.535: [2] Event: 00:03:39.566, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:39.574.570: PLTECIEvents.m:840 PLTECIEvents:eventData: 226227000 + 1184531879 = 1410758879: bgin 1,410,758
+00:03:39.576.685: [2] Event: 00:03:39.574, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:41.165.342: [2] Event: 00:03:41.164, DIN2, DIN2, 00:00:01.589.121
+00:03:42.604.676: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:02.271276-05:00, baseTime 1563880274506276, ms_offset 227765, secondsFromGMT_ -18000
+00:03:42.604.822: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:42.607.408: PLTECIEvents.m:840 PLTECIEvents:eventData: 227765000 + 1184531879 = 1412296879: sngl 1,412,296
+00:03:42.608.429: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:03.774276-05:00, baseTime 1563880274506276, ms_offset 229268, secondsFromGMT_ -18000
+00:03:42.608.540: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:42.610.010: [2] Event: 00:03:41.112, sngl, ECI TCP-IP 55513, -00:00:00.051.121
+00:03:42.615.623: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:03.782276-05:00, baseTime 1563880274506276, ms_offset 229276, secondsFromGMT_ -18000
+00:03:42.615.764: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:42.619.795: PLTECIEvents.m:840 PLTECIEvents:eventData: 229268000 + 1184531879 = 1413799879: TRSP 1,413,799
+00:03:42.622.893: [2] Event: 00:03:42.615, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:42.624.913: PLTECIEvents.m:840 PLTECIEvents:eventData: 229276000 + 1184531879 = 1413807879: bgin 1,413,807
+00:03:42.627.126: [2] Event: 00:03:42.623, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:44.337.391: [2] Event: 00:03:44.340, DIN2, DIN2, 00:00:01.716.121
+00:03:45.769.998: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:05.437276-05:00, baseTime 1563880274506276, ms_offset 230931, secondsFromGMT_ -18000
+00:03:45.770.141: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:45.772.591: PLTECIEvents.m:840 PLTECIEvents:eventData: 230931000 + 1184531879 = 1415462879: sngl 1,415,462
+00:03:45.773.514: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:06.939276-05:00, baseTime 1563880274506276, ms_offset 232433, secondsFromGMT_ -18000
+00:03:45.773.613: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:45.775.071: [2] Event: 00:03:44.278, sngl, ECI TCP-IP 55513, -00:00:00.061.120
+00:03:45.777.334: PLTECIEvents.m:840 PLTECIEvents:eventData: 232433000 + 1184531879 = 1416964879: TRSP 1,416,964
+00:03:45.780.690: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:06.947276-05:00, baseTime 1563880274506276, ms_offset 232441, secondsFromGMT_ -18000
+00:03:45.780.804: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:45.781.105: [2] Event: 00:03:45.780, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:03:45.789.988: PLTECIEvents.m:840 PLTECIEvents:eventData: 232441000 + 1184531879 = 1416972879: bgin 1,416,972
+00:03:45.792.094: [2] Event: 00:03:45.788, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:47.425.182: [2] Event: 00:03:47.428, DIN2, DIN2, 00:00:01.639.120
+00:03:48.869.466: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:08.536276-05:00, baseTime 1563880274506276, ms_offset 234030, secondsFromGMT_ -18000
+00:03:48.869.607: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:48.871.985: PLTECIEvents.m:840 PLTECIEvents:eventData: 234030000 + 1184531879 = 1418561879: sngl 1,418,561
+00:03:48.873.436: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:10.039276-05:00, baseTime 1563880274506276, ms_offset 235533, secondsFromGMT_ -18000
+00:03:48.873.537: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:48.874.421: [2] Event: 00:03:47.377, sngl, ECI TCP-IP 55513, -00:00:00.050.121
+00:03:48.876.632: PLTECIEvents.m:840 PLTECIEvents:eventData: 235533000 + 1184531879 = 1420064879: TRSP 1,420,064
+00:03:48.880.761: [2] Event: 00:03:48.880, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:48.880.767: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:10.047276-05:00, baseTime 1563880274506276, ms_offset 235541, secondsFromGMT_ -18000
+00:03:48.880.951: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:48.890.484: PLTECIEvents.m:840 PLTECIEvents:eventData: 235541000 + 1184531879 = 1420072879: bgin 1,420,072
+00:03:48.892.654: [2] Event: 00:03:48.888, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:50.369.001: [2] Event: 00:03:50.368, DIN2, DIN2, 00:00:01.479.120
+00:03:51.818.024: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:11.485276-05:00, baseTime 1563880274506276, ms_offset 236979, secondsFromGMT_ -18000
+00:03:51.818.190: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:51.820.852: PLTECIEvents.m:840 PLTECIEvents:eventData: 236979000 + 1184531879 = 1421510879: sngl 1,421,510
+00:03:51.821.583: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:12.987276-05:00, baseTime 1563880274506276, ms_offset 238481, secondsFromGMT_ -18000
+00:03:51.821.687: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:51.823.368: [2] Event: 00:03:50.326, sngl, ECI TCP-IP 55513, -00:00:00.041.121
+00:03:51.825.514: PLTECIEvents.m:840 PLTECIEvents:eventData: 238481000 + 1184531879 = 1423012879: TRSP 1,423,012
+00:03:51.828.903: [2] Event: 00:03:51.828, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:03:51.829.405: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:12.995276-05:00, baseTime 1563880274506276, ms_offset 238489, secondsFromGMT_ -18000
+00:03:51.829.532: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:51.838.240: PLTECIEvents.m:840 PLTECIEvents:eventData: 238489000 + 1184531879 = 1423020879: bgin 1,423,020
+00:03:51.840.238: [2] Event: 00:03:51.836, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:53.472.832: [2] Event: 00:03:53.472, DIN2, DIN2, 00:00:01.635.120
+00:03:54.916.546: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:14.583276-05:00, baseTime 1563880274506276, ms_offset 240077, secondsFromGMT_ -18000
+00:03:54.916.728: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:54.919.355: PLTECIEvents.m:840 PLTECIEvents:eventData: 240077000 + 1184531879 = 1424608879: sngl 1,424,608
+00:03:54.920.416: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:16.086276-05:00, baseTime 1563880274506276, ms_offset 241580, secondsFromGMT_ -18000
+00:03:54.920.519: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:54.921.719: [2] Event: 00:03:53.424, sngl, ECI TCP-IP 55513, -00:00:00.047.120
+00:03:54.924.014: PLTECIEvents.m:840 PLTECIEvents:eventData: 241580000 + 1184531879 = 1426111879: TRSP 1,426,111
+00:03:54.927.001: [2] Event: 00:03:54.927, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:54.927.775: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:16.094276-05:00, baseTime 1563880274506276, ms_offset 241588, secondsFromGMT_ -18000
+00:03:54.927.881: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:54.935.766: PLTECIEvents.m:840 PLTECIEvents:eventData: 241588000 + 1184531879 = 1426119879: bgin 1,426,119
+00:03:54.937.982: [2] Event: 00:03:54.935, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:56.568.657: [2] Event: 00:03:56.568, DIN2, DIN2, 00:00:01.632.120
+00:03:58.015.706: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:17.682276-05:00, baseTime 1563880274506276, ms_offset 243176, secondsFromGMT_ -18000
+00:03:58.015.845: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:58.019.234: PLTECIEvents.m:840 PLTECIEvents:eventData: 243176000 + 1184531879 = 1427707879: rept 1,427,707
+00:03:58.019.473: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:19.185276-05:00, baseTime 1563880274506276, ms_offset 244679, secondsFromGMT_ -18000
+00:03:58.019.580: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:58.021.575: [2] Event: 00:03:56.523, rept, ECI TCP-IP 55513, -00:00:00.044.121
+00:03:58.023.638: PLTECIEvents.m:840 PLTECIEvents:eventData: 244679000 + 1184531879 = 1429210879: TRSP 1,429,210
+00:03:58.026.429: [2] Event: 00:03:58.026, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:03:58.026.905: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:19.193276-05:00, baseTime 1563880274506276, ms_offset 244687, secondsFromGMT_ -18000
+00:03:58.027.015: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:03:58.028.948: PLTECIEvents.m:840 PLTECIEvents:eventData: 244687000 + 1184531879 = 1429218879: bgin 1,429,218
+00:03:58.031.451: [2] Event: 00:03:58.034, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:03:59.616.802: [2] Event: 00:03:59.612, DIN2, DIN2, 00:00:01.577.121
+00:04:01.048.309: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:20.715276-05:00, baseTime 1563880274506276, ms_offset 246209, secondsFromGMT_ -18000
+00:04:01.048.456: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:01.051.943: PLTECIEvents.m:840 PLTECIEvents:eventData: 00:04:01.051.952: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:22.218276-05:00, baseTime 1563880274506276, ms_offset 247712, secondsFromGMT_ -18000
+246209000 + 1184531879 = 1430740879: sngl 1,430,740
+00:04:01.052.064: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:01.054.280: [2] Event: 00:03:59.556, sngl, ECI TCP-IP 55513, -00:00:00.055.121
+00:04:01.056.608: PLTECIEvents.m:840 PLTECIEvents:eventData: 247712000 + 1184531879 = 1432243879: TRSP 1,432,243
+00:04:01.058.603: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:22.225276-05:00, baseTime 1563880274506276, ms_offset 247719, secondsFromGMT_ -18000
+00:04:01.058.715: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:01.059.463: [2] Event: 00:04:01.059, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:01.061.543: PLTECIEvents.m:840 PLTECIEvents:eventData: 247719000 + 1184531879 = 1432250879: bgin 1,432,250
+00:04:01.063.709: [2] Event: 00:04:01.066, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:04:02.838.256: [2] Event: 00:04:02.840, DIN2, DIN2, 00:00:01.773.121
+00:04:04.280.949: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:23.947276-05:00, baseTime 1563880274506276, ms_offset 249441, secondsFromGMT_ -18000
+00:04:04.281.093: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:04.284.552: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:25.450276-05:00, baseTime 1563880274506276, ms_offset 250944, secondsFromGMT_ -18000
+00:04:04.284.664: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:04.285.560: PLTECIEvents.m:840 PLTECIEvents:eventData: 249441000 + 1184531879 = 1433972879: sngl 1,433,972
+00:04:04.287.862: [2] Event: 00:04:02.788, sngl, ECI TCP-IP 55513, -00:00:00.051.121
+00:04:04.289.990: PLTECIEvents.m:840 PLTECIEvents:eventData: 250944000 + 1184531879 = 1435475879: TRSP 1,435,475
+00:04:04.292.300: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:25.458276-05:00, baseTime 1563880274506276, ms_offset 250952, secondsFromGMT_ -18000
+00:04:04.292.409: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:04.292.834: [2] Event: 00:04:04.291, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:04.294.913: PLTECIEvents.m:840 PLTECIEvents:eventData: 250952000 + 1184531879 = 1435483879: bgin 1,435,483
+00:04:04.296.855: [2] Event: 00:04:04.299, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:05.818.114: [2] Event: 00:04:05.820, DIN2, DIN2, 00:00:01.520.120
+00:04:07.262.647: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:26.929276-05:00, baseTime 1563880274506276, ms_offset 252423, secondsFromGMT_ -18000
+00:04:07.262.796: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:07.266.283: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:28.432276-05:00, baseTime 1563880274506276, ms_offset 253926, secondsFromGMT_ -18000
+00:04:07.266.417: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:07.270.413: PLTECIEvents.m:840 PLTECIEvents:eventData: 252423000 + 1184531879 = 1436954879: rept 1,436,954
+00:04:07.272.895: [2] Event: 00:04:05.770, rept, ECI TCP-IP 55513, -00:00:00.049.121
+00:04:07.273.621: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:28.440276-05:00, baseTime 1563880274506276, ms_offset 253934, secondsFromGMT_ -18000
+00:04:07.273.731: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:07.274.961: PLTECIEvents.m:840 PLTECIEvents:eventData: 253926000 + 1184531879 = 1438457879: TRSP 1,438,457
+00:04:07.278.035: [2] Event: 00:04:07.273, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:07.280.527: PLTECIEvents.m:840 PLTECIEvents:eventData: 253934000 + 1184531879 = 1438465879: bgin 1,438,465
+00:04:07.282.857: [2] Event: 00:04:07.281, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:08.918.904: [2] Event: 00:04:08.920, DIN2, DIN2, 00:00:01.638.120
+00:04:10.361.735: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:30.028276-05:00, baseTime 1563880274506276, ms_offset 255522, secondsFromGMT_ -18000
+00:04:10.361.872: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:10.364.284: PLTECIEvents.m:840 PLTECIEvents:eventData: 255522000 + 1184531879 = 1440053879: sngl 1,440,053
+00:04:10.365.496: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:31.531276-05:00, baseTime 1563880274506276, ms_offset 257025, secondsFromGMT_ -18000
+00:04:10.365.701: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:10.367.991: [2] Event: 00:04:08.869, sngl, ECI TCP-IP 55513, -00:00:00.050.121
+00:04:10.372.851: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:31.539276-05:00, baseTime 1563880274506276, ms_offset 257033, secondsFromGMT_ -18000
+00:04:10.372.958: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:10.376.842: PLTECIEvents.m:840 PLTECIEvents:eventData: 257025000 + 1184531879 = 1441556879: TRSP 1,441,556
+00:04:10.380.002: [2] Event: 00:04:10.372, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:10.382.454: PLTECIEvents.m:840 PLTECIEvents:eventData: 257033000 + 1184531879 = 1441564879: bgin 1,441,564
+00:04:10.384.641: [2] Event: 00:04:10.380, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:12.042.747: [2] Event: 00:04:12.044, DIN2, DIN2, 00:00:01.663.120
+00:04:13.493.907: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:33.160276-05:00, baseTime 1563880274506276, ms_offset 258654, secondsFromGMT_ -18000
+00:04:13.494.050: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:13.496.470: PLTECIEvents.m:840 PLTECIEvents:eventData: 258654000 + 1184531879 = 1443185879: sngl 1,443,185
+00:04:13.497.887: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:34.663276-05:00, baseTime 1563880274506276, ms_offset 260157, secondsFromGMT_ -18000
+00:04:13.498.015: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:13.499.147: [2] Event: 00:04:12.001, sngl, ECI TCP-IP 55513, -00:00:00.042.121
+00:04:13.505.662: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:34.671276-05:00, baseTime 1563880274506276, ms_offset 260165, secondsFromGMT_ -18000
+00:04:13.505.791: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:13.507.398: PLTECIEvents.m:840 PLTECIEvents:eventData: 260157000 + 1184531879 = 1444688879: TRSP 1,444,688
+00:04:13.510.519: [2] Event: 00:04:13.504, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:13.513.131: PLTECIEvents.m:840 PLTECIEvents:eventData: 260165000 + 1184531879 = 1444696879: bgin 1,444,696
+00:04:13.515.444: [2] Event: 00:04:13.512, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:15.120.527: [2] Event: 00:04:15.120, DIN2, DIN2, 00:00:01.607.121
+00:04:16.559.749: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:36.226276-05:00, baseTime 1563880274506276, ms_offset 261720, secondsFromGMT_ -18000
+00:04:16.559.923: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:16.562.418: PLTECIEvents.m:840 PLTECIEvents:eventData: 261720000 + 1184531879 = 1446251879: rept 1,446,251
+00:04:16.563.411: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:37.729276-05:00, baseTime 1563880274506276, ms_offset 263223, secondsFromGMT_ -18000
+00:04:16.563.521: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:16.565.025: [2] Event: 00:04:15.067, rept, ECI TCP-IP 55513, -00:00:00.052.121
+00:04:16.571.262: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:37.737276-05:00, baseTime 1563880274506276, ms_offset 263231, secondsFromGMT_ -18000
+00:04:16.571.381: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:16.574.836: PLTECIEvents.m:840 PLTECIEvents:eventData: 263223000 + 1184531879 = 1447754879: TRSP 1,447,754
+00:04:16.577.944: [2] Event: 00:04:16.570, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:16.579.975: PLTECIEvents.m:840 PLTECIEvents:eventData: 263231000 + 1184531879 = 1447762879: bgin 1,447,762
+00:04:16.582.114: [2] Event: 00:04:16.578, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:18.309.354: [2] Event: 00:04:18.308, DIN2, DIN2, 00:00:01.729.120
+00:04:19.741.844: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:39.408276-05:00, baseTime 1563880274506276, ms_offset 264902, secondsFromGMT_ -18000
+00:04:19.742.017: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:19.744.591: PLTECIEvents.m:840 PLTECIEvents:eventData: 264902000 + 1184531879 = 1449433879: sngl 1,449,433
+00:04:19.745.581: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:40.911276-05:00, baseTime 1563880274506276, ms_offset 266405, secondsFromGMT_ -18000
+00:04:19.745.678: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:19.747.071: [2] Event: 00:04:18.249, sngl, ECI TCP-IP 55513, -00:00:00.058.121
+00:04:19.753.164: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:40.919276-05:00, baseTime 1563880274506276, ms_offset 266413, secondsFromGMT_ -18000
+00:04:19.753.299: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:19.756.297: PLTECIEvents.m:840 PLTECIEvents:eventData: 266405000 + 1184531879 = 1450936879: TRSP 1,450,936
+00:04:19.759.453: [2] Event: 00:04:19.752, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:19.761.504: PLTECIEvents.m:840 PLTECIEvents:eventData: 266413000 + 1184531879 = 1450944879: bgin 1,450,944
+00:04:19.763.631: [2] Event: 00:04:19.760, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:21.489.172: [2] Event: 00:04:21.492, DIN2, DIN2, 00:00:01.731.120
+00:04:22.940.309: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:42.607276-05:00, baseTime 1563880274506276, ms_offset 268101, secondsFromGMT_ -18000
+00:04:22.940.448: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:22.942.721: PLTECIEvents.m:840 PLTECIEvents:eventData: 268101000 + 1184531879 = 1452632879: sngl 1,452,632
+00:04:22.943.979: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:44.110276-05:00, baseTime 1563880274506276, ms_offset 269604, secondsFromGMT_ -18000
+00:04:22.944.073: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:22.944.989: [2] Event: 00:04:21.448, sngl, ECI TCP-IP 55513, -00:00:00.043.121
+00:04:22.947.051: PLTECIEvents.m:840 PLTECIEvents:eventData: 269604000 + 1184531879 = 1454135879: TRSP 1,454,135
+00:04:22.950.113: [2] Event: 00:04:22.951, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:22.951.447: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:44.117276-05:00, baseTime 1563880274506276, ms_offset 269611, secondsFromGMT_ -18000
+00:04:22.951.555: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:22.959.432: PLTECIEvents.m:840 PLTECIEvents:eventData: 269611000 + 1184531879 = 1454142879: bgin 1,454,142
+00:04:22.961.408: [2] Event: 00:04:22.958, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:04:24.503.139: [2] Event: 00:04:24.500, DIN2, DIN2, 00:00:01.541.121
+00:04:25.939.924: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:45.606276-05:00, baseTime 1563880274506276, ms_offset 271100, secondsFromGMT_ -18000
+00:04:25.940.060: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:25.942.288: PLTECIEvents.m:840 PLTECIEvents:eventData: 271100000 + 1184531879 = 1455631879: sngl 1,455,631
+00:04:25.943.605: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:47.109276-05:00, baseTime 1563880274506276, ms_offset 272603, secondsFromGMT_ -18000
+00:04:25.943.700: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:25.944.554: [2] Event: 00:04:24.447, sngl, ECI TCP-IP 55513, -00:00:00.052.121
+00:04:25.946.612: PLTECIEvents.m:840 PLTECIEvents:eventData: 272603000 + 1184531879 = 1457134879: TRSP 1,457,134
+00:04:25.949.602: [2] Event: 00:04:25.950, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:25.951.264: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:47.117276-05:00, baseTime 1563880274506276, ms_offset 272611, secondsFromGMT_ -18000
+00:04:25.951.369: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:25.958.138: PLTECIEvents.m:840 PLTECIEvents:eventData: 272611000 + 1184531879 = 1457142879: bgin 1,457,142
+00:04:25.960.241: [2] Event: 00:04:25.958, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:27.586.728: [2] Event: 00:04:27.580, DIN2, DIN2, 00:00:01.621.121
+00:04:29.021.630: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:48.688276-05:00, baseTime 1563880274506276, ms_offset 274182, secondsFromGMT_ -18000
+00:04:29.021.782: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:29.024.069: PLTECIEvents.m:840 PLTECIEvents:eventData: 274182000 + 1184531879 = 1458713879: rept 1,458,713
+00:04:29.025.548: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:50.191276-05:00, baseTime 1563880274506276, ms_offset 275685, secondsFromGMT_ -18000
+00:04:29.025.661: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:29.026.484: [2] Event: 00:04:27.529, rept, ECI TCP-IP 55513, -00:00:00.050.121
+00:04:29.028.581: PLTECIEvents.m:840 PLTECIEvents:eventData: 275685000 + 1184531879 = 1460216879: TRSP 1,460,216
+00:04:29.031.431: [2] Event: 00:04:29.032, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:29.033.036: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:50.199276-05:00, baseTime 1563880274506276, ms_offset 275693, secondsFromGMT_ -18000
+00:04:29.033.174: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:29.040.580: PLTECIEvents.m:840 PLTECIEvents:eventData: 275693000 + 1184531879 = 1460224879: bgin 1,460,224
+00:04:29.042.595: [2] Event: 00:04:29.040, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:30.753.304: [2] Event: 00:04:30.748, DIN2, DIN2, 00:00:01.707.120
+00:04:32.186.944: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:51.853276-05:00, baseTime 1563880274506276, ms_offset 277347, secondsFromGMT_ -18000
+00:04:32.187.093: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:32.189.361: PLTECIEvents.m:840 PLTECIEvents:eventData: 277347000 + 1184531879 = 1461878879: rept 1,461,878
+00:04:32.190.812: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:53.356276-05:00, baseTime 1563880274506276, ms_offset 278850, secondsFromGMT_ -18000
+00:04:32.190.916: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:32.191.656: [2] Event: 00:04:30.694, rept, ECI TCP-IP 55513, -00:00:00.053.120
+00:04:32.193.725: PLTECIEvents.m:840 PLTECIEvents:eventData: 278850000 + 1184531879 = 1463381879: TRSP 1,463,381
+00:04:32.196.568: [2] Event: 00:04:32.197, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:32.197.613: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:53.364276-05:00, baseTime 1563880274506276, ms_offset 278858, secondsFromGMT_ -18000
+00:04:32.197.713: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:32.200.291: PLTECIEvents.m:840 PLTECIEvents:eventData: 278858000 + 1184531879 = 1463389879: bgin 1,463,389
+00:04:32.202.471: [2] Event: 00:04:32.205, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:33.955.407: [2] Event: 00:04:33.956, DIN2, DIN2, 00:00:01.750.120
+00:04:35.402.646: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:55.069276-05:00, baseTime 1563880274506276, ms_offset 280563, secondsFromGMT_ -18000
+00:04:35.402.806: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:35.406.340: PLTECIEvents.m:840 PLTECIEvents:eventData: 280563000 + 1184531879 = 1465094879: sngl 1,465,094
+00:04:35.406.425: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:56.572276-05:00, baseTime 1563880274506276, ms_offset 282066, secondsFromGMT_ -18000
+00:04:35.406.533: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:35.408.619: [2] Event: 00:04:33.910, sngl, ECI TCP-IP 55513, -00:00:00.045.121
+00:04:35.410.712: PLTECIEvents.m:840 PLTECIEvents:eventData: 282066000 + 1184531879 = 1466597879: TRSP 1,466,597
+00:04:35.413.547: [2] Event: 00:04:35.413, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:35.413.964: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:56.580276-05:00, baseTime 1563880274506276, ms_offset 282074, secondsFromGMT_ -18000
+00:04:35.414.074: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:35.416.037: PLTECIEvents.m:840 PLTECIEvents:eventData: 282074000 + 1184531879 = 1466605879: bgin 1,466,605
+00:04:35.418.365: [2] Event: 00:04:35.421, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:36.921.085: [2] Event: 00:04:36.920, DIN2, DIN2, 00:00:01.498.121
+00:04:38.367.838: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:58.034276-05:00, baseTime 1563880274506276, ms_offset 283528, secondsFromGMT_ -18000
+00:04:38.368.036: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:38.371.743: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:59.537276-05:00, baseTime 1563880274506276, ms_offset 285031, secondsFromGMT_ -18000
+00:04:38.371.864: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:38.373.148: PLTECIEvents.m:840 PLTECIEvents:eventData: 283528000 + 1184531879 = 1468059879: rept 1,468,059
+00:04:38.375.676: [2] Event: 00:04:36.875, rept, ECI TCP-IP 55513, -00:00:00.044.121
+00:04:38.378.033: PLTECIEvents.m:840 PLTECIEvents:eventData: 285031000 + 1184531879 = 1469562879: TRSP 1,469,562
+00:04:38.379.426: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:15:59.545276-05:00, baseTime 1563880274506276, ms_offset 285039, secondsFromGMT_ -18000
+00:04:38.379.532: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:38.381.243: [2] Event: 00:04:38.378, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:38.383.515: PLTECIEvents.m:840 PLTECIEvents:eventData: 285039000 + 1184531879 = 1469570879: bgin 1,469,570
+00:04:38.386.187: [2] Event: 00:04:38.386, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:40.060.054: [2] Event: 00:04:40.060, DIN2, DIN2, 00:00:01.673.120
+00:04:41.499.314: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:01.166276-05:00, baseTime 1563880274506276, ms_offset 286660, secondsFromGMT_ -18000
+00:04:41.502.074: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:41.502.822: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:02.669276-05:00, baseTime 1563880274506276, ms_offset 288163, secondsFromGMT_ -18000
+00:04:41.502.912: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:41.506.777: PLTECIEvents.m:840 PLTECIEvents:eventData: 286660000 + 1184531879 = 1471191879: rept 1,471,191
+00:04:41.509.226: [2] Event: 00:04:40.007, rept, ECI TCP-IP 55513, -00:00:00.052.121
+00:04:41.509.880: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:02.676276-05:00, baseTime 1563880274506276, ms_offset 288170, secondsFromGMT_ -18000
+00:04:41.509.992: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:41.511.300: PLTECIEvents.m:840 PLTECIEvents:eventData: 288163000 + 1184531879 = 1472694879: TRSP 1,472,694
+00:04:41.514.382: [2] Event: 00:04:41.510, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:41.516.771: PLTECIEvents.m:840 PLTECIEvents:eventData: 288170000 + 1184531879 = 1472701879: bgin 1,472,701
+00:04:41.519.070: [2] Event: 00:04:41.517, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:04:43.088.132: [2] Event: 00:04:43.088, DIN2, DIN2, 00:00:01.570.120
+00:04:44.532.244: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:04.199276-05:00, baseTime 1563880274506276, ms_offset 289693, secondsFromGMT_ -18000
+00:04:44.532.397: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:44.535.039: PLTECIEvents.m:840 PLTECIEvents:eventData: 289693000 + 1184531879 = 1474224879: rept 1,474,224
+00:04:44.535.832: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:05.701276-05:00, baseTime 1563880274506276, ms_offset 291195, secondsFromGMT_ -18000
+00:04:44.535.940: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:44.537.689: [2] Event: 00:04:43.040, rept, ECI TCP-IP 55513, -00:00:00.047.120
+00:04:44.543.082: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:05.709276-05:00, baseTime 1563880274506276, ms_offset 291203, secondsFromGMT_ -18000
+00:04:44.543.188: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:44.546.631: PLTECIEvents.m:840 PLTECIEvents:eventData: 291195000 + 1184531879 = 1475726879: TRSP 1,475,726
+00:04:44.549.900: [2] Event: 00:04:44.542, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:04:44.552.301: PLTECIEvents.m:840 PLTECIEvents:eventData: 291203000 + 1184531879 = 1475734879: bgin 1,475,734
+00:04:44.554.869: [2] Event: 00:04:44.550, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:46.071.065: [2] Event: 00:04:46.068, DIN2, DIN2, 00:00:01.517.120
+00:04:47.514.278: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:07.181276-05:00, baseTime 1563880274506276, ms_offset 292675, secondsFromGMT_ -18000
+00:04:47.514.434: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:47.517.052: PLTECIEvents.m:840 PLTECIEvents:eventData: 292675000 + 1184531879 = 1477206879: rept 1,477,206
+00:04:47.517.714: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:08.683276-05:00, baseTime 1563880274506276, ms_offset 294177, secondsFromGMT_ -18000
+00:04:47.517.847: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:47.519.731: [2] Event: 00:04:46.022, rept, ECI TCP-IP 55513, -00:00:00.045.121
+00:04:47.527.782: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:08.694276-05:00, baseTime 1563880274506276, ms_offset 294188, secondsFromGMT_ -18000
+00:04:47.527.915: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:47.528.169: PLTECIEvents.m:840 PLTECIEvents:eventData: 294177000 + 1184531879 = 1478708879: TRSP 1,478,708
+00:04:47.531.305: [2] Event: 00:04:47.524, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:04:47.533.572: PLTECIEvents.m:840 PLTECIEvents:eventData: 294188000 + 1184531879 = 1478719879: bgin 1,478,719
+00:04:47.536.090: [2] Event: 00:04:47.535, bgin, ECI TCP-IP 55513, 00:00:00.011.000
+00:04:49.282.496: [2] Event: 00:04:49.284, DIN2, DIN2, 00:00:01.748.120
+00:04:50.729.569: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:10.396276-05:00, baseTime 1563880274506276, ms_offset 295890, secondsFromGMT_ -18000
+00:04:50.729.718: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:50.732.403: PLTECIEvents.m:840 PLTECIEvents:eventData: 295890000 + 1184531879 = 1480421879: sngl 1,480,421
+00:04:50.733.479: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:11.899276-05:00, baseTime 1563880274506276, ms_offset 297393, secondsFromGMT_ -18000
+00:04:50.733.620: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:50.735.616: [2] Event: 00:04:49.237, sngl, ECI TCP-IP 55513, -00:00:00.046.120
+00:04:50.740.816: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:11.907276-05:00, baseTime 1563880274506276, ms_offset 297401, secondsFromGMT_ -18000
+00:04:50.740.922: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:50.743.839: PLTECIEvents.m:840 PLTECIEvents:eventData: 297393000 + 1184531879 = 1481924879: TRSP 1,481,924
+00:04:50.746.952: [2] Event: 00:04:50.740, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:50.749.279: PLTECIEvents.m:840 PLTECIEvents:eventData: 297401000 + 1184531879 = 1481932879: bgin 1,481,932
+00:04:50.751.453: [2] Event: 00:04:50.748, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:52.376.304: [2] Event: 00:04:52.372, DIN2, DIN2, 00:00:01.623.121
+00:04:52.806.303: [2] Event: 00:04:52.804, DIN2, DIN2, 00:00:00.432.000
+00:04:53.812.546: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:13.479276-05:00, baseTime 1563880274506276, ms_offset 298973, secondsFromGMT_ -18000
+00:04:53.812.690: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:53.814.934: PLTECIEvents.m:840 PLTECIEvents:eventData: 298973000 + 1184531879 = 1483504879: sngl 1,483,504
+00:04:53.816.226: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:14.982276-05:00, baseTime 1563880274506276, ms_offset 300476, secondsFromGMT_ -18000
+00:04:53.816.330: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:53.817.225: [2] Event: 00:04:52.320, sngl, ECI TCP-IP 55513, -00:00:00.483.120
+00:04:53.823.515: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:14.989276-05:00, baseTime 1563880274506276, ms_offset 300483, secondsFromGMT_ -18000
+00:04:53.823.622: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:53.825.482: PLTECIEvents.m:840 PLTECIEvents:eventData: 300476000 + 1184531879 = 1485007879: TRSP 1,485,007
+00:04:53.828.360: [2] Event: 00:04:53.823, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:53.830.467: PLTECIEvents.m:840 PLTECIEvents:eventData: 300483000 + 1184531879 = 1485014879: bgin 1,485,014
+00:04:53.832.401: [2] Event: 00:04:53.830, bgin, ECI TCP-IP 55513, 00:00:00.006.999
+00:04:55.339.390: [2] Event: 00:04:55.340, DIN2, DIN2, 00:00:01.509.120
+00:04:56.777.932: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:16.444276-05:00, baseTime 1563880274506276, ms_offset 301938, secondsFromGMT_ -18000
+00:04:56.778.071: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:56.780.358: PLTECIEvents.m:840 PLTECIEvents:eventData: 301938000 + 1184531879 = 1486469879: sngl 1,486,469
+00:04:56.781.757: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:17.947276-05:00, baseTime 1563880274506276, ms_offset 303441, secondsFromGMT_ -18000
+00:04:56.781.852: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:56.782.662: [2] Event: 00:04:55.285, sngl, ECI TCP-IP 55513, -00:00:00.054.120
+00:04:56.784.735: PLTECIEvents.m:840 PLTECIEvents:eventData: 303441000 + 1184531879 = 1487972879: TRSP 1,487,972
+00:04:56.787.895: [2] Event: 00:04:56.788, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:04:56.789.047: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:17.955276-05:00, baseTime 1563880274506276, ms_offset 303449, secondsFromGMT_ -18000
+00:04:56.789.147: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:56.796.441: PLTECIEvents.m:840 PLTECIEvents:eventData: 303449000 + 1184531879 = 1487980879: bgin 1,487,980
+00:04:56.798.380: [2] Event: 00:04:56.796, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:04:58.567.972: [2] Event: 00:04:58.564, DIN2, DIN2, 00:00:01.767.121
+00:04:59.993.913: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:19.660276-05:00, baseTime 1563880274506276, ms_offset 305154, secondsFromGMT_ -18000
+00:04:59.994.053: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:59.996.285: PLTECIEvents.m:840 PLTECIEvents:eventData: 305154000 + 1184531879 = 1489685879: sngl 1,489,685
+00:04:59.997.704: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:21.163276-05:00, baseTime 1563880274506276, ms_offset 306657, secondsFromGMT_ -18000
+00:04:59.997.795: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:04:59.998.556: [2] Event: 00:04:58.501, sngl, ECI TCP-IP 55513, -00:00:00.062.120
+00:05:00.000.624: PLTECIEvents.m:840 PLTECIEvents:eventData: 306657000 + 1184531879 = 1491188879: TRSP 1,491,188
+00:05:00.003.916: [2] Event: 00:05:00.004, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:05:00.005.282: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:21.171276-05:00, baseTime 1563880274506276, ms_offset 306665, secondsFromGMT_ -18000
+00:05:00.005.384: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:00.012.807: PLTECIEvents.m:840 PLTECIEvents:eventData: 306665000 + 1184531879 = 1491196879: bgin 1,491,196
+00:05:00.014.773: [2] Event: 00:05:00.012, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:05:01.584.825: [2] Event: 00:05:01.588, DIN2, DIN2, 00:00:01.575.121
+00:05:03.025.313: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:22.692276-05:00, baseTime 1563880274506276, ms_offset 308186, secondsFromGMT_ -18000
+00:05:03.025.440: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:03.027.716: PLTECIEvents.m:840 PLTECIEvents:eventData: 308186000 + 1184531879 = 1492717879: rept 1,492,717
+00:05:03.028.670: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:24.194276-05:00, baseTime 1563880274506276, ms_offset 309688, secondsFromGMT_ -18000
+00:05:03.028.768: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:03.030.038: [2] Event: 00:05:01.533, rept, ECI TCP-IP 55513, -00:00:00.054.120
+00:05:03.032.133: PLTECIEvents.m:840 PLTECIEvents:eventData: 309688000 + 1184531879 = 1494219879: TRSP 1,494,219
+00:05:03.034.962: [2] Event: 00:05:03.035, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:05:03.035.943: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:24.202276-05:00, baseTime 1563880274506276, ms_offset 309696, secondsFromGMT_ -18000
+00:05:03.036.038: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:03.044.079: PLTECIEvents.m:840 PLTECIEvents:eventData: 309696000 + 1184531879 = 1494227879: bgin 1,494,227
+00:05:03.046.060: [2] Event: 00:05:03.043, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:05:04.557.870: [2] Event: 00:05:04.556, DIN2, DIN2, 00:00:01.512.120
+00:05:06.007.706: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:25.674276-05:00, baseTime 1563880274506276, ms_offset 311168, secondsFromGMT_ -18000
+00:05:06.007.867: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:06.010.229: PLTECIEvents.m:840 PLTECIEvents:eventData: 311168000 + 1184531879 = 1495699879: rept 1,495,699
+00:05:06.011.450: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:27.177276-05:00, baseTime 1563880274506276, ms_offset 312671, secondsFromGMT_ -18000
+00:05:06.011.550: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:06.012.650: [2] Event: 00:05:04.515, rept, ECI TCP-IP 55513, -00:00:00.040.121
+00:05:06.014.911: PLTECIEvents.m:840 PLTECIEvents:eventData: 312671000 + 1184531879 = 1497202879: TRSP 1,497,202
+00:05:06.017.830: [2] Event: 00:05:06.018, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:05:06.019.281: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:27.185276-05:00, baseTime 1563880274506276, ms_offset 312679, secondsFromGMT_ -18000
+00:05:06.019.382: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:06.028.234: PLTECIEvents.m:840 PLTECIEvents:eventData: 312679000 + 1184531879 = 1497210879: bgin 1,497,210
+00:05:06.030.312: [2] Event: 00:05:06.026, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:05:07.808.355: [2] Event: 00:05:07.808, DIN2, DIN2, 00:00:01.781.121
+00:05:09.256.283: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:28.923276-05:00, baseTime 1563880274506276, ms_offset 314417, secondsFromGMT_ -18000
+00:05:09.256.421: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:09.259.104: PLTECIEvents.m:840 PLTECIEvents:eventData: 314417000 + 1184531879 = 1498948879: rept 1,498,948
+00:05:09.259.793: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:30.425276-05:00, baseTime 1563880274506276, ms_offset 315919, secondsFromGMT_ -18000
+00:05:09.259.893: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:09.261.503: [2] Event: 00:05:07.764, rept, ECI TCP-IP 55513, -00:00:00.043.121
+00:05:09.263.750: PLTECIEvents.m:840 PLTECIEvents:eventData: 315919000 + 1184531879 = 1500450879: TRSP 1,500,450
+00:05:09.266.523: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:30.433276-05:00, baseTime 1563880274506276, ms_offset 315927, secondsFromGMT_ -18000
+00:05:09.266.627: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:09.266.825: [2] Event: 00:05:09.266, TRSP, ECI TCP-IP 55513, 00:00:01.502.000
+00:05:09.269.428: PLTECIEvents.m:840 PLTECIEvents:eventData: 315927000 + 1184531879 = 1500458879: bgin 1,500,458
+00:05:09.272.301: [2] Event: 00:05:09.274, bgin, ECI TCP-IP 55513, 00:00:00.008.000
+00:05:10.823.656: [2] Event: 00:05:10.820, DIN2, DIN2, 00:00:01.545.121
+00:05:12.255.704: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:31.922276-05:00, baseTime 1563880274506276, ms_offset 317416, secondsFromGMT_ -18000
+00:05:12.255.866: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:12.259.470: PLTECICommandDelegate.mm:516 'D' eci_EventData 2019-07-23T06:16:33.425276-05:00, baseTime 1563880274506276, ms_offset 318919, secondsFromGMT_ -18000
+00:05:12.259.574: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:05:12.260.428: PLTECIEvents.m:840 PLTECIEvents:eventData: 317416000 + 1184531879 = 1501947879: sngl 1,501,947
+00:05:12.262.891: [2] Event: 00:05:10.763, sngl, ECI TCP-IP 55513, -00:00:00.056.121
+00:05:12.265.147: PLTECIEvents.m:840 PLTECIEvents:eventData: 318919000 + 1184531879 = 1503450879: TRSP 1,503,450
+00:05:12.268.230: [2] Event: 00:05:12.266, TRSP, ECI TCP-IP 55513, 00:00:01.502.999
+00:05:12.864.545: PLTECICommandDelegate.mm:290 'E' eci_EndRecording
+00:05:12.864.712: PLTECIEvents.m:499 PLTECIEvents:endRecording: eci_EndRecording
+00:05:12.865.633: PLTRecord.m:289 PLTRecord:recordNotification: 
+00:05:12.865.702: PLTRecord.m:320 PLTRecord:record: PLTRecord_recording
+00:05:12.865.774: EEG PAUSE RECORDING
+00:05:12.865.814: EEG HANDLE PAUSE RECORDING
+00:05:12.865.958: NSAToolbarDelegate.m:803 NSAToolbarDelegate:updateInterface _onOff YES, _recordButton YES, _stopButton YES,
+00:05:12.866.043: NSARecording.m:1444 NSARecording:appendFlatlinedSamples EEG shift: Append 28 flatlined samples to epoch 2
+00:05:12.866.172: NSARecording.m:3037 NSARecording:writeEpoch #2, beginTime: 1928000, endTime: 312864000, firstBlock: 2, lastBlock: 21
+00:05:12.871.434: PLTECIServer.mm:258 PLTECIServer:endRecording_TRUE: number.intValue 55513, _portNumber 55513
+00:05:12.871.518: PLTECICommandDelegate.mm:808 _state = 0
+00:05:12.871.619: PLTECICommandDelegate.mm:306 'E' eci_EndRecording ack
+00:05:13.322.870: PLTECICommandDelegate.mm:239 'X' eci_Exit
+00:05:13.322.994: PLTECICommandDelegate.mm:243 'X' eci_Exit ack
+00:05:13.323.957: PLTECIEvents.m:414 PLTECIEvents:exit: eci_Exit
+00:05:13.324.785: PLTRecord.m:711 PLTRecord:stopAll 
+00:05:13.324.862: --- EEG STOP RECORDING ----------------------------------------------------------------------------------
+00:05:13.324.937: --- EEG HANDLE STOP RECORDING ---------------------------------------------------------------------------
+00:05:13.328.876: PLTRecord.m:1449 PLTRecord:handleStopRecording Recording duration 312.380000, record duration 313.324000
+00:05:13.334.766: 
+00:05:13.334.847: Sample Provider timing info
+00:05:13.334.910:     Amp Start Time: 140734209623586
+00:05:13.335.001:     Amp Start Date: 2019-07-23 05:51:29.974397 AM CDT
+00:05:13.335.053:     Stream Up Time: 1504.508000 seconds
+00:05:13.335.102: 
+00:05:13.335.447: NSARecording.m:161 NSARecording:lastWrites top signal blocks 0
+00:05:13.336.026: NSARecording.m:2760 NSARecording:writeWorkspace 
+00:05:13.336.141: NSARecording.m:1090 offset 1052, egiType 
+00:05:13.343.718: NSPopUpButton+Extras.m:91 NSPopUpButton:indexOfSelectedItemInRange: No selection in range {8, 1}
+00:05:13.344.044: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: splitView_
+00:05:13.344.940: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: psgView_
+00:05:13.345.002: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: channel settings
+00:05:13.345.132: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: video setting
+00:05:13.345.212: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: positions
+00:05:13.345.344: NSDictionary+Extras.m:130 __NSDictionaryM:safeSetObject:forKey: aKey cannot be nil
+00:05:13.345.400: NSDictionary+Extras.m:137 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key
+00:05:13.345.492: NSADelegate.mm:856 NSADelegate:developmentFeaturesEnabled 1
+00:05:13.350.996: NSARecording.m:2805 NSARecording:writeWorkspace
+00:05:13.351.102: NSARecording.m:3187 NSARecording:removeAcquiringXML 
+00:05:13.353.434: NSARecording.m:3197 NSARecording:removeAcquiringXML
+00:05:13.776.916: PLTRecord.m:1578 PLTRecord:lastWritesComplete: _recording
+00:05:13.777.136: --- NSARECORDING dealloc --------------------------------------------------------------------------------

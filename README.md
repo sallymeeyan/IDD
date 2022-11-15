@@ -31,6 +31,7 @@ Developed at the Child Development Lab, University of Maryland, College Park
  Before running the pipeline, you have to install the following:
  
 - EEGLab:  https://sccn.ucsd.edu/eeglab/downloadtoolbox.php/download.php
+- MADE: https://github.com/ChildDevLab/MADE-EEG-preprocessing-pipeline
 
 You also need to download the following plugins/extensions from here:
 
@@ -45,43 +46,41 @@ Specifically, download:
 After downloading these plugins (as zip files), you need to place it in the eeglab/plugins folder.
 For instance, for FASTER, you uncompress the downloaded extension file (e.g., 'FASTER.zip') and place it in the main EEGLAB "plugins" sub-directory/sub-folder.
 
-After placing all the required plugins, add the EEGLAB folder to your path by using the following code:
-
-```{matlab}
-addpath(genpath(('...')) % Enter the path of the EEGLAB folder in this line
-```
-
-
-Please cite the following references for in any manuscripts produced utilizing MADE pipeline:
-
-EEGLAB: A Delorme & S Makeig (2004) EEGLAB: an open source toolbox for
-analysis of single-trial EEG dynamics. Journal of Neuroscience Methods, 134, 9?21.
-
-firfilt (filter plugin): developed by Andreas Widmann (https://home.uni-leipzig.de/biocog/content/de/mitarbeiter/widmann/eeglab-plugins/)
-
-FASTER: Nolan, H., Whelan, R., Reilly, R.B., 2010. FASTER: Fully Automated Statistical
-Thresholding for EEG artifact Rejection. Journal of Neuroscience Methods, 192, 152?162.
-
-ADJUST: Mognon, A., Jovicich, J., Bruzzone, L., Buiatti, M., 2011. ADJUST: An automatic EEG
-artifact detector based on the joint use of spatial and temporal features. Psychophysiology, 48, 229?240.
-Our group has modified ADJUST plugin to improve selection of ICA components containing artifacts
-
-This pipeline is released under the GNU General Public License version 3.
 
 
 ## Inputs
 ************************************************************************
 
-User input: user provide relevant information to be used for data processing. Examples are shown below.
+After completing all the prerequisites, open the IDD_preprocess_pipeline_v1_0_test.m and add the EEGLAB and adjusted-adjust folders to your path by modify the following lines:
 
-1. Enter the path of the folder that has the raw data to be analyzed
-    (Your path).
+```{matlab}
+addpath("/Users/yanyan/Documents/EEG/eeglab2021.0");% enter the path of the EEGLAB folder in this line
+
+%enter the path of the adjusted_adjust
+addpath('/Users/yanyan/Documents/EEG/MADE-EEG-preprocessing-pipeline-master/adjusted_adjust_scripts');
+
+```
+
+
+Then specify the user inputs to be used for data processing. Examples are shown below.
+
+1. Path of the folder that has the raw data to be analyzed
+
+    (Now it's the argument of the function so no need to enter the path).
+
+<br>
 
 2. Enter the path of the folder where you want to save the processed data
-   (Your path).
+
+   (To facilitate parallel processing, the output folder will be created inside the raw data folder by the code, so no need to enter either ).
+
+<br>
 
 3. Enter the path of the channel location file
-   (Your path).
+
+   (Your path). % you can use the ones from MADE pipeline/EEGLAB or specify the path to your own file
+
+<br>
 
 4. Do your data need correction for anti-aliasing filter and/or task related time offset?
 
@@ -116,7 +115,7 @@ Recommended list for EGI 128 channel net: {'E17' 'E38' 'E43' 'E44' 'E48' 'E49' '
     - highpass = 0.1; % High-pass frequency
     - lowpass  = 30; % Low-pass frequency. 
     
-    We recommend low-pass filter at/below line noise frequency (see manuscript for detail)
+    We recommend low-pass filter at/below line noise frequency (see MADE manuscript for detail)
 
 <br>
 
@@ -195,7 +194,9 @@ Recommended list for EGI 128 channel net: {'E17' 'E38' 'E43' 'E44' 'E48' 'E49' '
 
 18. Do you want to plot the ERPs by condition if task-related?
 
-    - plot_ERPs_by_condition = 1; % 1 = yes, 0 = no
+    - plot_ERPs_by_condition = 1; % 1 = yes, 0 = no 
+    
+    _This step now only supports 2 conditions, so if you have more than 2 conditions, please use 0._
 
 <br>
 
@@ -204,10 +205,35 @@ Recommended list for EGI 128 channel net: {'E17' 'E38' 'E43' 'E44' 'E48' 'E49' '
 ## Example code
 ************************************************************************
 
-After modifying the function with your inputs, run the following code in bash.
+After modifying the function with your inputs, save the function and run the following code in MATLAB.
 
-```{bash}
-matlab -nodisplay -nosplash -batch 'addpath("your/path/to/the/function/");IDD_preprocess_pipeline_v1_0_test('\''/path/to/data/'\'');
+```{matlab}
+% Enter the path to the IDD_preprocess_pipeline
+addpath('/Users/yanyan/Documents/EEG/IDD_READs/IDD-master'); 
+
+% Enter the path to your data folder
+IDD_preprocess_pipeline_v1_0_test('/Users/yanyan/Documents/EEG/IDD_READs/IDD-master/data')
 ```
 
+If there are data for multiple individuals in your data folder, make sure the same set of inputs is suitable for every subject. A final report, along with interim results and plots (if you prefer to have them) can be found in the `result` folder inside the raw data folder you provide.
 
+
+
+************************************************************************
+Please cite the following references for in any manuscripts produced utilizing this pipeline:
+
+EEGLAB: A Delorme & S Makeig (2004) EEGLAB: an open source toolbox for
+analysis of single-trial EEG dynamics. Journal of Neuroscience Methods, 134, 9?21.
+
+firfilt (filter plugin): developed by Andreas Widmann (https://home.uni-leipzig.de/biocog/content/de/mitarbeiter/widmann/eeglab-plugins/)
+
+FASTER: Nolan, H., Whelan, R., Reilly, R.B., 2010. FASTER: Fully Automated Statistical
+Thresholding for EEG artifact Rejection. Journal of Neuroscience Methods, 192, 152-162.
+
+ADJUST: Mognon, A., Jovicich, J., Bruzzone, L., Buiatti, M., 2011. ADJUST: An automatic EEG
+artifact detector based on the joint use of spatial and temporal features. Psychophysiology, 48, 229-240.
+
+
+MADE: Debnath, R., Buzzell, G.A., Morales, S., Bowers, M.E., Leach, S.C., Fox, N.A., 2020. The Maryland analysis of developmental EEG (MADE) pipeline. Psychophysiology 57, e13580. 
+
+This pipeline is released under the GNU General Public License version 3.
