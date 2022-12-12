@@ -740,8 +740,12 @@ for subject=1:length(datafile_names)
     events_before_labels = cell(1, length(EEG.epoch));
     for i = 1:length(EEG.epoch)
         events = events_before{i};
-        ind = find(ismember(events,task_event_markers));
-        events_before_labels{i} = events{ind};
+        if isa(events, 'cell') % multiple eventcodes, eg. {'sngl', 'DIN2'}
+            ind = find(ismember(events,task_event_markers));
+            events_before_labels{i} = events{ind};
+        elseif isa(events, 'char') % single eventcode, eg. 'sngl'  12/10/22
+            events_before_labels{i} = events;
+        end
     end
     epochs_before = cellfun(@(x) sum(ismember(events_before_labels,x)),task_event_markers,'un',0);
     epochs_before_artifact_rejection_by_condition{subject}= num2str(cell2mat(epochs_before)); % Yan - add epoch numbers by conditions
